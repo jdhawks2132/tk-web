@@ -1,5 +1,12 @@
 <script>
 	import { fly, scale } from 'svelte/transition';
+
+	const schedules = [
+		{ description: 'Titans', location: 'McKinnish 3', date: '4/2/2023', time: '9:00 AM' },
+		{ description: 'Supremes', location: 'McKinnish 3', date: '4/2/2023', time: '10:00 AM' },
+		{ description: 'Legends', location: 'Kiest 3', date: '4/8/2023', time: '8:00 AM' },
+		{ description: 'Base Invaders', location: 'Kiest 3', date: '4/8/2023', time: '9:00 AM' }
+	];
 </script>
 
 <section
@@ -66,6 +73,34 @@
 			/>
 		</div>
 	</div>
+</section>
+
+<section id="schedule" class="py-12">
+	<h2 class="text-2xl font-bold mb-6" transition:fly={{ y: -50, duration: 1000, delay: 200 }}>
+		Upcoming Schedule
+	</h2>
+
+	<!-- create a table using tailwind css with headers for Description, Location, Date, Time -->
+	<table class="table-auto w-full">
+		<thead>
+			<tr>
+				<th class="px-4 py-2">Description</th>
+				<th class="px-4 py-2">Location</th>
+				<th class="px-4 py-2">Date</th>
+				<th class="px-4 py-2">Time</th>
+			</tr>
+		</thead>
+		<tbody>
+			{#each schedules as schedule, i}
+				<tr class="bg-white even:bg-gray-100 odd:bg-white">
+					<td class="border px-4 py-2">{schedule.description}</td>
+					<td class="border px-4 py-2">{schedule.location}</td>
+					<td class="border px-4 py-2">{schedule.date}</td>
+					<td class="border px-4 py-2">{schedule.time}</td>
+				</tr>
+			{/each}
+		</tbody>
+	</table>
 </section>
 
 <section id="contact" class="py-12">

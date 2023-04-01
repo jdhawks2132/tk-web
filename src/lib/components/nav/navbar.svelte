@@ -38,6 +38,7 @@
 			<div class="flex flex-col md:flex-row md:mx-6 text-center">
 				<a href="#about" class="my-1 md:mx-4 md:my-0 hover:text-snapchat-yellow"> About </a>
 				<a href="#events" class="my-1 md:mx-4 md:my-0 hover:text-snapchat-yellow"> Events </a>
+				<a href="#schedule" class="my-1 md:mx-4 md:my-0 hover:text-snapchat-yellow"> Schedule </a>
 				<a href="#contact" class="my-1 md:mx-4 md:my-0 hover:text-snapchat-yellow"> Contact </a>
 			</div>
 		</div>
