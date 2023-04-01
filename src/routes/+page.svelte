@@ -2,10 +2,10 @@
 	import { fly, scale } from 'svelte/transition';
 
 	const schedules = [
-		{ description: 'Titans', location: 'McKinnish 3', date: '4/2/2023', time: '9:00 AM' },
-		{ description: 'Supremes', location: 'McKinnish 3', date: '4/2/2023', time: '10:00 AM' },
-		{ description: 'Legends', location: 'Kiest 3', date: '4/8/2023', time: '8:00 AM' },
-		{ description: 'Base Invaders', location: 'Kiest 3', date: '4/8/2023', time: '9:00 AM' }
+		{ description: 'Titans', location: 'McKinnish 3', date: '4/2/23', time: '9:00 AM' },
+		{ description: 'Supremes', location: 'McKinnish 3', date: '4/2/23', time: '10:00 AM' },
+		{ description: 'Legends', location: 'Kiest 3', date: '4/8/23', time: '8:00 AM' },
+		{ description: 'Base Invaders', location: 'Kiest 3', date: '4/8/23', time: '9:00 AM' }
 	];
 </script>
 
