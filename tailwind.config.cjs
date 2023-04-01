@@ -4,11 +4,11 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				'charcoal-gray': '#2D2D2D',
-				'medium-gray': '#9B9B9B',
-				'light-gray': '#F2F2F2',
-				'snapchat-yellow': '#FFFC00',
-				'honey-yellow': '#FFB100'
+				'charcoal-gray': '#383637',
+				'medium-gray': '#bebfc1',
+				'light-gray': '#e7e7e9',
+				'snapchat-yellow': '#f0d564',
+				'honey-yellow': '#d6a137'
 			}
 		}
 	},

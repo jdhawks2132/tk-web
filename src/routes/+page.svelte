@@ -1,14 +1,125 @@
-<h1 class="text-3xl font-bold my-11 text-center">⚡️ 😺 Under Construction 😺 ⚡️</h1>
-<!-- test tailwind custom colors  -->
-<!-- colors: {
-  'charcoal-gray': '#2D2D2D',
-  'medium-gray': '#9B9B9B',
-  'light-gray': '#F2F2F2',
-  'lightning-yellow': '#F2C94C'
-} -->
+<script>
+	import { fly, scale } from 'svelte/transition';
+</script>
 
-<div class="bg-charcoal-gray">Some stuff</div>
-<div class="bg-medium-gray">Some stuff</div>
-<div class="bg-light-gray">Some stuff</div>
-<div class="bg-snapchat-yellow">Some stuff</div>
-<div class="bg-honey-yellow">Some stuff</div>
+<section
+	id="hero"
+	class="hero min-h-[75vh] flex flex-col lg:flex-row lg:justify-around items-center p-11"
+>
+	<div class="hero-text text-center lg:w-1/3">
+		<h1
+			class="text-4xl lg:text-5xl font-bold text-charcoal-gray"
+			transition:fly={{ y: -50, duration: 1000 }}
+		>
+			Dallas Thunder Kitties
+		</h1>
+		<p class="text-medium-gray font-bold my-4">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ultricies dolor, a
+			lobortis lorem congue nec. Etiam non mollis urna, eget fermentum purus.
+		</p>
+		<button
+			class="cta-button bg-honey-yellow text-charcoal-gray py-2 px-6 rounded-lg font-bold transition-colors duration-200 hover:bg-snapchat-yellow"
+			on:click={() => alert('Customize your action')}
+		>
+			Join Us Now
+		</button>
+	</div>
+	<div class="hero-image flex justify-center items-center w:11/12 lg:w-2/3">
+		<img src="/images/tk_hero.jpg" alt="Thunder Kitties Softball Team" />
+	</div>
+</section>
+
+<section id="about" class="py-12">
+	<h2 class="text-2xl font-bold mb-6" transition:fly={{ y: -50, duration: 1000, delay: 200 }}>
+		About Us
+	</h2>
+	<p class="text-base" transition:scale={{ duration: 500, delay: 400 }}>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ultricies dolor, a
+		lobortis lorem congue nec. Etiam non mollis urna, eget fermentum purus.
+	</p>
+</section>
+
+<section id="events" class="py-12">
+	<h2 class="text-2xl font-bold mb-6" transition:fly={{ y: -50, duration: 1000, delay: 200 }}>
+		Our Events
+	</h2>
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+		<div>
+			<img
+				src="https://via.placeholder.com/300"
+				alt="Event 1"
+				class="event-image w-full h-auto"
+				transition:scale={{ duration: 500, delay: 400 }}
+			/>
+		</div>
+		<div>
+			<img
+				src="https://via.placeholder.com/300"
+				alt="Event 2"
+				class="event-image w-full h-auto"
+				transition:scale={{ duration: 500, delay: 600 }}
+			/>
+		</div>
+	</div>
+</section>
+
+<section id="contact" class="py-12">
+	<h2 class="text-2xl font-bold mb-6" transition:fly={{ y: -50, duration: 1000, delay: 200 }}>
+		Contact Us
+	</h2>
+	<form
+		action="#"
+		class="w-full max-w-lg mx-auto"
+		on:submit={(e) => {
+			e.preventDefault();
+			// Handle form submission
+		}}
+	>
+		<div class="mb-4">
+			<label for="name" class="block text-medium-gray font-bold mb-2"> Name </label>
+			<input
+				id="name"
+				type="text"
+				class="shadow appearance-none border rounded w-full py-2 px-3 text-charcoal-gray leading-tight focus:outline-none focus:shadow-outline"
+				placeholder="Your Name"
+			/>
+		</div>
+		<div class="mb-4">
+			<label for="email" class="block text-medium-gray font-bold mb-2"> Email </label>
+			<input
+				id="email"
+				type="email"
+				class="shadow appearance-none border rounded w-full py-2 px-3 text-charcoal-gray leading-tight focus:outline-none focus:shadow-outline"
+				placeholder="Your Email"
+			/>
+		</div>
+		<div class="mb-6">
+			<label for="message" class="block text-medium-gray font-bold mb-2"> Message </label>
+			<textarea
+				id="message"
+				rows="5"
+				class="shadow appearance-none border rounded w-full py-2 px-3 text-charcoal-gray leading-tight focus:outline-none focus:shadow-outline"
+				placeholder="Your Message"
+			/>
+		</div>
+		<div class="flex items-center justify-between">
+			<button
+				class="cta-button bg-honey-yellow text-charcoal-gray py-2 px-6 rounded-lg font-bold transition-colors duration-200 hover:bg-snapchat-yellow"
+				type="submit"
+			>
+				Send Message
+			</button>
+		</div>
+	</form>
+</section>
+
+<style>
+	section {
+		padding: 3rem 0;
+	}
+
+	.event-image {
+		max-width: 100%;
+		height: auto;
+	}
+</style>
