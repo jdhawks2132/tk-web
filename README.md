@@ -1,38 +1,48 @@
-# create-svelte
+![screenshot](static/images/tk_screenshot.png)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<div align='center'>
 
-## Creating a project
+![svelte](https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
+![sveltekit](https://img.shields.io/badge/SvelteKit-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00)
+![tailwindcss](https://img.shields.io/badge/TailwindCSS-4A4A55?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC)
+![vercel](https://img.shields.io/badge/Vercel-4A4A55?style=for-the-badge&logo=vercel&logoColor=000000)
 
-If you're seeing this, you've probably already done this step. Congrats!
+</div>
+
+# Thunder Kitties Homepage
+
+This is the homepage for the Dallas Thunder Kitties, a softball team in the Dallas, TX area.
+
+## Stack
+
+- [SvelteKit](https://kit.svelte.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## Installation
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+npm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Development Server
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## Deployment
 
-To create a production version of your app:
+Deployment is handled by Vercel. Any push to the `main` branch will trigger a deployment.
 
-```bash
-npm run build
-```
+### Deployment URL
 
-You can preview the production build with `npm run preview`.
+[https://thunderkitties.com](https://thunderkitties.com)
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
