@@ -14,7 +14,7 @@
 
 <div class="main-container">
 	<Navbar />
-	<main class="content p-11">
+	<main class="content p-2 lg:p-11">
 		<slot />
 	</main>
 	<Footer />
