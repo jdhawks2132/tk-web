@@ -93,10 +93,10 @@
 		<tbody>
 			{#each schedules as schedule, i}
 				<tr class="bg-white even:bg-gray-100 odd:bg-white">
-					<td class="border px-4 py-2">{schedule.description}</td>
-					<td class="border px-4 py-2">{schedule.location}</td>
-					<td class="border px-4 py-2">{schedule.date}</td>
-					<td class="border px-4 py-2">{schedule.time}</td>
+					<td class="border px-2 py-2">{schedule.description}</td>
+					<td class="border px-2 py-2">{schedule.location}</td>
+					<td class="border px-2 py-2">{schedule.date}</td>
+					<td class="border px-2 py-2">{schedule.time}</td>
 				</tr>
 			{/each}
 		</tbody>
