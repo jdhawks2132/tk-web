@@ -4,7 +4,7 @@
 
 <section
 	id="hero"
-	class="hero lg:min-h-[75vh] flex flex-col lg:flex-row lg:justify-around items-center p-11"
+	class="hero lg:min-h-[75vh] flex flex-col lg:flex-row lg:justify-around items-center p-4 lg:p-11"
 >
 	<div class="hero-text text-center w-ful lg:w-1/2">
 		<h1
