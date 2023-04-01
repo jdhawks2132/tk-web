@@ -4,27 +4,28 @@
 
 <section
 	id="hero"
-	class="hero min-h-[75vh] flex flex-col lg:flex-row lg:justify-around items-center p-11"
+	class="hero lg:min-h-[75vh] flex flex-col lg:flex-row lg:justify-around items-center p-11"
 >
-	<div class="hero-text text-center lg:w-1/3">
+	<div class="hero-text text-center w-ful lg:w-1/2">
 		<h1
 			class="text-4xl lg:text-5xl font-bold text-charcoal-gray"
 			transition:fly={{ y: -50, duration: 1000 }}
 		>
 			Dallas Thunder Kitties
 		</h1>
-		<p class="text-medium-gray font-bold my-4">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ultricies dolor, a
-			lobortis lorem congue nec. Etiam non mollis urna, eget fermentum purus.
+		<p class="text-medium-gray font-bold my-4 mx-auto w-full lg:w-4/5">
+			The Thunder Kitties, a Dallas-based softball team, proudly participates in the Pegasus Slow
+			Pitch Softball League. If you're interested in joining our team or exploring sponsorship
+			opportunities, please don't hesitate to get in touch with us.
 		</p>
 		<button
 			class="cta-button bg-honey-yellow text-charcoal-gray py-2 px-6 rounded-lg font-bold transition-colors duration-200 hover:bg-snapchat-yellow"
 			on:click={() => alert('Customize your action')}
 		>
-			Join Us Now
+			Contact Us!
 		</button>
 	</div>
-	<div class="hero-image flex justify-center items-center w:11/12 lg:w-2/3">
+	<div class="hero-image flex justify-center items-center w:11/12 lg:w-1/2">
 		<img src="/images/tk_hero.jpg" alt="Thunder Kitties Softball Team" />
 	</div>
 </section>
@@ -34,8 +35,12 @@
 		About Us
 	</h2>
 	<p class="text-base" transition:scale={{ duration: 500, delay: 400 }}>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ultricies dolor, a
-		lobortis lorem congue nec. Etiam non mollis urna, eget fermentum purus.
+		The Thunder Kitties proudly compete in the E Division of PSSA, a Dallas-based league focused on
+		creating an inclusive environment for the LGBTQIA community. As silver medalists in the 2019
+		NAGAAA World Series and participants in the 2021, our team has a strong track record of success.
+		We are immensely grateful for the support of our fantastic host bar, the Hidden Door. New
+		players interested in joining our team are always welcome and encouraged to reach out to us
+		through the form provided below.
 	</p>
 </section>
 
@@ -112,14 +117,3 @@
 		</div>
 	</form>
 </section>
-
-<style>
-	section {
-		padding: 3rem 0;
-	}
-
-	.event-image {
-		max-width: 100%;
-		height: auto;
-	}
-</style>
