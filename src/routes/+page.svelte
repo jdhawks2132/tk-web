@@ -45,12 +45,12 @@
 			Pitch Softball League. If you're interested in joining our team or exploring sponsorship
 			opportunities, please don't hesitate to get in touch with us.
 		</p>
-		<button
+		<a
 			class="cta-button bg-honey-yellow text-charcoal-gray py-2 px-6 rounded-lg font-bold transition-colors duration-200 hover:bg-snapchat-yellow"
-			on:click={() => alert('Customize your action')}
+			href="#contact"
 		>
 			Contact Us!
-		</button>
+		</a>
 	</div>
 	<div class="hero-image flex justify-center items-center w:11/12 lg:w-1/2">
 		<img src="/images/tk_hero.jpg" alt="Thunder Kitties Softball Team" />
