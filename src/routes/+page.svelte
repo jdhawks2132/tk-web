@@ -3,28 +3,24 @@
 		{
 			description: 'Base Invaders',
 			location: '1',
-			jersey: 'Gray',
 			date: '4/16/23',
 			time: '11:00 AM'
 		},
 		{
 			description: 'Home Runs & Harmony',
 			location: '1',
-			jersey: 'Gray',
 			date: '4/16/23',
 			time: '12:00 PM'
 		},
 		{
 			description: 'Home Runs & Harmony',
 			location: '2',
-			jersey: 'Yellow',
 			date: '4/23/23',
 			time: '8:00 AM'
 		},
 		{
 			description: 'Base Invaders',
 			location: '2',
-			jersey: 'Yellow',
 			date: '4/23/23',
 			time: '9:00 AM'
 		},
@@ -121,7 +117,6 @@
 				<tr class="bg-white even:bg-gray-100 odd:bg-white">
 					<td class="border px-2 py-2 text-center">{schedule.description}</td>
 					<td class="border px-2 py-2 text-center">{schedule.location}</td>
-					<td class="border px-2 py-2 text-center">{schedule.jersey}</td>
 					<td class="border px-2 py-2 text-center">{schedule.date}</td>
 					<td class="border px-2 py-2 text-center">{schedule.time}</td>
 				</tr>
