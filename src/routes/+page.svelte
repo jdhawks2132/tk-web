@@ -107,7 +107,6 @@
 			<tr>
 				<th class="px-4 py-2">Description</th>
 				<th class="px-4 py-2">Field</th>
-				<th class="px-4 py-2">Jersey</th>
 				<th class="px-4 py-2">Date</th>
 				<th class="px-4 py-2">Time</th>
 			</tr>
