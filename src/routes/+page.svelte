@@ -1,11 +1,40 @@
 <script>
-	import { fly, scale } from 'svelte/transition';
-
 	const schedules = [
-		{ description: 'Titans', location: 'McKinnish 3', date: '4/2/23', time: '9:00 AM' },
-		{ description: 'Supremes', location: 'McKinnish 3', date: '4/2/23', time: '10:00 AM' },
-		{ description: 'Legends', location: 'Kiest 3', date: '4/8/23', time: '8:00 AM' },
-		{ description: 'Base Invaders', location: 'Kiest 3', date: '4/8/23', time: '9:00 AM' }
+		{
+			description: 'Base Invaders',
+			location: '1',
+			jersey: 'Gray',
+			date: '4/16/23',
+			time: '11:00 AM'
+		},
+		{
+			description: 'Home Runs & Harmony',
+			location: '1',
+			jersey: 'Gray',
+			date: '4/16/23',
+			time: '12:00 PM'
+		},
+		{
+			description: 'Home Runs & Harmony',
+			location: '2',
+			jersey: 'Yellow',
+			date: '4/23/23',
+			time: '8:00 AM'
+		},
+		{
+			description: 'Base Invaders',
+			location: '2',
+			jersey: 'Yellow',
+			date: '4/23/23',
+			time: '9:00 AM'
+		},
+		{
+			description: 'E Division Bye Week',
+			location: '-',
+			jersey: '-',
+			date: '4/30/23',
+			time: '-'
+		}
 	];
 </script>
 
@@ -14,12 +43,7 @@
 	class="hero lg:min-h-[75vh] flex flex-col lg:flex-row lg:justify-around items-center p-4 lg:p-11"
 >
 	<div class="hero-text text-center w-ful lg:w-1/2">
-		<h1
-			class="text-4xl lg:text-5xl font-bold text-charcoal-gray"
-			transition:fly={{ y: -50, duration: 1000 }}
-		>
-			Dallas Thunder Kitties
-		</h1>
+		<h1 class="text-4xl lg:text-5xl font-bold text-charcoal-gray">Dallas Thunder Kitties</h1>
 		<p class="text-medium-gray font-bold my-4 mx-auto w-full lg:w-4/5">
 			The Thunder Kitties, a Dallas-based softball team, proudly participates in the Pegasus Slow
 			Pitch Softball League. If you're interested in joining our team or exploring sponsorship
@@ -38,54 +62,56 @@
 </section>
 
 <section id="about" class="py-12">
-	<h2 class="text-2xl font-bold mb-6" transition:fly={{ y: -50, duration: 1000, delay: 200 }}>
-		About Us
-	</h2>
-	<p class="text-base" transition:scale={{ duration: 500, delay: 400 }}>
-		The Thunder Kitties proudly compete in the E Division of PSSA, a Dallas-based league focused on
-		creating an inclusive environment for the LGBTQIA community. As silver medalists in the 2019
-		NAGAAA World Series and participants in the 2021, our team has a strong track record of success.
-		We are immensely grateful for the support of our fantastic host bar, the Hidden Door. New
-		players interested in joining our team are always welcome and encouraged to reach out to us
-		through the form provided below.
-	</p>
+	<h2 class="text-2xl font-bold mb-6">About Us</h2>
+
+	<div class="about-container grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
+		<div class="about-image">
+			<img
+				src="/images/tk_team.jpg"
+				alt="Thunder Kitties Softball Team"
+				class="w-full rounded-lg shadow-md leading-relaxed"
+			/>
+		</div>
+		<div
+			class="about-text w-full p-4 lg:p-6 lg:h-full bg-light-gray rounded-lg shadow-md leading-relaxed"
+		>
+			<p class="text-base xl:text-xl mb-6 2xl:mt-24 2xl:text-2xl 2xl:mx-4">
+				The Thunder Kitties proudly compete in the E Division of PSSA, a Dallas-based league focused
+				on creating an inclusive environment for the LGBTQIA community. As silver medalists in the
+				2019 NAGAAA World Series and participants in the 2021, our team has a strong track record of
+				success. We are immensely grateful for the support of our fantastic host bar, the Hidden
+				Door.
+			</p>
+			<p class="text-base xl:text-xl 2xl:text-2xl 2xl:mx-4">
+				New players interested in joining our team are always welcome and encouraged to reach out to
+				us through the form provided below.
+			</p>
+		</div>
+	</div>
 </section>
 
 <section id="events" class="py-12">
-	<h2 class="text-2xl font-bold mb-6" transition:fly={{ y: -50, duration: 1000, delay: 200 }}>
-		Our Events
-	</h2>
+	<h2 class="text-2xl font-bold mb-6">Our Events</h2>
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 		<div>
-			<img
-				src="https://via.placeholder.com/300"
-				alt="Event 1"
-				class="event-image w-full h-auto"
-				transition:scale={{ duration: 500, delay: 400 }}
-			/>
+			<img src="https://via.placeholder.com/300" alt="Event 1" class="event-image w-full h-auto" />
 		</div>
 		<div>
-			<img
-				src="https://via.placeholder.com/300"
-				alt="Event 2"
-				class="event-image w-full h-auto"
-				transition:scale={{ duration: 500, delay: 600 }}
-			/>
+			<img src="https://via.placeholder.com/300" alt="Event 2" class="event-image w-full h-auto" />
 		</div>
 	</div>
 </section>
 
 <section id="schedule" class="py-12">
-	<h2 class="text-2xl font-bold mb-6" transition:fly={{ y: -50, duration: 1000, delay: 200 }}>
-		Upcoming Schedule
-	</h2>
+	<h2 class="text-2xl font-bold mb-6">Upcoming Schedule</h2>
 
 	<!-- create a table using tailwind css with headers for Description, Location, Date, Time -->
 	<table class="table-auto w-full">
-		<thead>
+		<thead class="bg-charcoal-gray text-white">
 			<tr>
 				<th class="px-4 py-2">Description</th>
-				<th class="px-4 py-2">Location</th>
+				<th class="px-4 py-2">Field</th>
+				<th class="px-4 py-2">Jersey</th>
 				<th class="px-4 py-2">Date</th>
 				<th class="px-4 py-2">Time</th>
 			</tr>
@@ -93,10 +119,11 @@
 		<tbody>
 			{#each schedules as schedule, i}
 				<tr class="bg-white even:bg-gray-100 odd:bg-white">
-					<td class="border px-2 py-2">{schedule.description}</td>
-					<td class="border px-2 py-2">{schedule.location}</td>
-					<td class="border px-2 py-2">{schedule.date}</td>
-					<td class="border px-2 py-2">{schedule.time}</td>
+					<td class="border px-2 py-2 text-center">{schedule.description}</td>
+					<td class="border px-2 py-2 text-center">{schedule.location}</td>
+					<td class="border px-2 py-2 text-center">{schedule.jersey}</td>
+					<td class="border px-2 py-2 text-center">{schedule.date}</td>
+					<td class="border px-2 py-2 text-center">{schedule.time}</td>
 				</tr>
 			{/each}
 		</tbody>
@@ -104,9 +131,7 @@
 </section>
 
 <section id="contact" class="py-12">
-	<h2 class="text-2xl font-bold mb-6" transition:fly={{ y: -50, duration: 1000, delay: 200 }}>
-		Contact Us
-	</h2>
+	<h2 class="text-2xl font-bold mb-6">Contact Us</h2>
 	<form
 		action="#"
 		class="w-full max-w-lg mx-auto"
@@ -116,7 +141,7 @@
 		}}
 	>
 		<div class="mb-4">
-			<label for="name" class="block text-medium-gray font-bold mb-2"> Name </label>
+			<label for="name" class="block text-charcoal-gray font-bold mb-2"> Name </label>
 			<input
 				id="name"
 				type="text"
@@ -125,7 +150,7 @@
 			/>
 		</div>
 		<div class="mb-4">
-			<label for="email" class="block text-medium-gray font-bold mb-2"> Email </label>
+			<label for="email" class="block text-charcoal-gray font-bold mb-2"> Email </label>
 			<input
 				id="email"
 				type="email"
@@ -134,7 +159,7 @@
 			/>
 		</div>
 		<div class="mb-6">
-			<label for="message" class="block text-medium-gray font-bold mb-2"> Message </label>
+			<label for="message" class="block text-charcoal-gray font-bold mb-2"> Message </label>
 			<textarea
 				id="message"
 				rows="5"

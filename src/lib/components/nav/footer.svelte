@@ -30,7 +30,7 @@
 			</a>
 		</div>
 		<div class="mt-4">
-			<p class="text-sm">&copy; {new Date().getFullYear()} Hawks Design. All rights reserved.</p>
+			<p class="text-sm">&copy; {new Date().getFullYear()} Thunder Kitties. All rights reserved.</p>
 		</div>
 	</div>
 </footer>
