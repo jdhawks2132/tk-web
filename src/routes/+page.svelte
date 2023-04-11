@@ -4,20 +4,21 @@
 
 <section
 	id="hero"
-	class="hero lg:min-h-[75vh] flex flex-col lg:flex-row lg:justify-around items-center p-4 lg:p-11"
+	class="hero flex flex-col items-center p-4 lg:flex-row lg:justify-around lg:min-h-[75vh] lg:p-11"
 >
-	<div class="hero-text text-center w-ful lg:w-1/2">
+	<div class="hero-text text-center w-full h-full lg:w-1/2">
 		<h1 class="text-4xl lg:text-5xl font-bold text-charcoal-gray">Dallas Thunder Kitties</h1>
 		<p class="text-medium-gray font-bold my-4 mx-auto w-full lg:w-4/5">
 			The Thunder Kitties, a Dallas-based softball team, proudly participates in the Pegasus Slow
 			Pitch Softball League. If you're interested in joining our team or exploring sponsorship
 			opportunities, please don't hesitate to get in touch with us.
 		</p>
-		<a
-			class="cta-button bg-honey-yellow text-charcoal-gray py-2 px-6 rounded-lg font-bold transition-colors duration-200 hover:bg-snapchat-yellow"
-			href="#contact"
-		>
-			Contact Us!
+		<a href="#contact">
+			<button
+				class="cta-button bg-honey-yellow text-charcoal-gray py-2 px-6 mb-4 rounded-lg font-bold transition-colors duration-200 hover:bg-snapchat-yellow"
+			>
+				Contact Us!
+			</button>
 		</a>
 	</div>
 	<div class="hero-image flex justify-center items-center w:11/12 lg:w-1/2">
