@@ -2,6 +2,12 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
+		description: 'Practice - Preston Hollow',
+		location: '1',
+		date: '4/15/23',
+		time: '1:00 PM'
+	},
+	{
 		description: 'Base Invaders',
 		location: '1',
 		date: '4/16/23',
