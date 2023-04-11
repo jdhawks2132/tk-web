@@ -43,7 +43,7 @@
 			<p class="text-base xl:text-xl mb-6 2xl:mt-24 2xl:text-2xl 2xl:mx-4">
 				The Thunder Kitties proudly compete in the E Division of PSSA, a Dallas-based league focused
 				on creating an inclusive environment for the LGBTQIA community. As silver medalists in the
-				2019 NAGAAA World Series and participants in the 2021, our team has a strong track record of
+				2019 NAGAAA World Series and participants in 2021, our team has a strong track record of
 				success. We are immensely grateful for the support of our fantastic host bar, the Hidden
 				Door.
 			</p>
