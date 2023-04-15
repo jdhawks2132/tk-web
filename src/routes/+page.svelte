@@ -83,8 +83,10 @@
 		<tbody>
 			{#each $schedulesStore as schedule}
 				<tr class="bg-white even:bg-gray-100 odd:bg-white">
-					<td class="border px-2 py-2 text-center">{schedule.description}</td>
-					<td class="border px-2 py-2 text-center">{schedule.location}</td>
+					<td class="border px-2 py-2 text-center"
+						><a href={`/schedule/${schedule.id}`}>{schedule.description}</a></td
+					>
+					<td class="border px-2 py-2 text-center">{schedule.field}</td>
 					<td class="border px-2 py-2 text-center">{schedule.date}</td>
 					<td class="border px-2 py-2 text-center">{schedule.time}</td>
 				</tr>
