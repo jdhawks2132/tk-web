@@ -59,10 +59,14 @@
 	<h2 class="text-2xl font-bold mb-6">Our Events</h2>
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 		<div>
-			<img src="https://via.placeholder.com/300" alt="Event 1" class="event-image w-full h-auto" />
+			<img
+				src="/images/scavengerHunt.jpg"
+				alt="scavenger hunt details"
+				class="event-image w-full h-auto"
+			/>
 		</div>
 		<div>
-			<img src="https://via.placeholder.com/300" alt="Event 2" class="event-image w-full h-auto" />
+			<img src="/images/extraInnings.jpg" alt="extra innings" class="event-image w-full h-auto" />
 		</div>
 	</div>
 </section>
