@@ -101,48 +101,38 @@
 
 <section id="contact" class="py-12">
 	<h2 class="text-2xl font-bold mb-6">Contact Us</h2>
-	<form
-		action="#"
-		class="w-full max-w-lg mx-auto"
-		on:submit={(e) => {
-			e.preventDefault();
-			// Handle form submission
-		}}
+	<div
+		class="contact-card flex flex-col md:flex-row items-center justify-around bg-gray-100 rounded-md"
 	>
-		<div class="mb-4">
-			<label for="name" class="block text-charcoal-gray font-bold mb-2"> Name </label>
-			<input
-				id="name"
-				type="text"
-				class="shadow appearance-none border rounded w-full py-2 px-3 text-charcoal-gray leading-tight focus:outline-none focus:shadow-outline"
-				placeholder="Your Name"
-			/>
+		<div class="contact-card-image m-4 flex items-center justify-center">
+			<img src="/images/tk_hero.jpg" alt="Thunder Kitties Logo" class="w-64 shadow-lg" />
 		</div>
-		<div class="mb-4">
-			<label for="email" class="block text-charcoal-gray font-bold mb-2"> Email </label>
-			<input
-				id="email"
-				type="email"
-				class="shadow appearance-none border rounded w-full py-2 px-3 text-charcoal-gray leading-tight focus:outline-none focus:shadow-outline"
-				placeholder="Your Email"
-			/>
+		<div class="flex flex-col h-11/12">
+			<div class="staff">
+				<h3 class="text-2xl mb-6">Coach: John Blizzard</h3>
+			</div>
+			<div class="facebook-link flex justify-center items-center">
+				<a
+					href="https://www.facebook.com/DallasThunderKitties/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="hover:text-snapchat-yellow flex items-center mb-4"
+				>
+					<i class="fab fa-facebook-f text-4xl" />
+					<span class="ml-4">Thunder Kitties Facebook</span>
+				</a>
+			</div>
+			<div class="email-link flex justify-start items-center">
+				<a
+					href="mailto:thunder.kitties.e@gmail.com"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="hover:text-snapchat-yellow flex items-center mb-4"
+				>
+					<i class="fas fa-envelope text-4xl" />
+					<span class="ml-4">Email us!</span>
+				</a>
+			</div>
 		</div>
-		<div class="mb-6">
-			<label for="message" class="block text-charcoal-gray font-bold mb-2"> Message </label>
-			<textarea
-				id="message"
-				rows="5"
-				class="shadow appearance-none border rounded w-full py-2 px-3 text-charcoal-gray leading-tight focus:outline-none focus:shadow-outline"
-				placeholder="Your Message"
-			/>
-		</div>
-		<div class="flex items-center justify-between">
-			<button
-				class="cta-button bg-honey-yellow text-charcoal-gray py-2 px-6 rounded-lg font-bold transition-colors duration-200 hover:bg-snapchat-yellow"
-				type="submit"
-			>
-				Send Message
-			</button>
-		</div>
-	</form>
+	</div>
 </section>
