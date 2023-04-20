@@ -36,6 +36,17 @@ const schedules = [
 	},
 	{
 		id: 4,
+		description: 'Practice',
+		field: '3',
+		location: 'McInnish Sports Complex',
+		jersey: 'N/A',
+		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
+		imageUrl: '/images/mckinnish.jpg',
+		date: '4/22/23',
+		time: '10:00 AM'
+	},
+	{
+		id: 5,
 		description: 'Home Runs & Harmony',
 		field: '2',
 		location: 'McInnish Sports Complex',
@@ -46,7 +57,7 @@ const schedules = [
 		time: '8:00 AM'
 	},
 	{
-		id: 5,
+		id: 6,
 		description: 'Base Invaders',
 		field: '2',
 		location: 'McInnish Sports Complex',
@@ -57,7 +68,7 @@ const schedules = [
 		time: '9:00 AM'
 	},
 	{
-		id: 6,
+		id: 7,
 		description: 'Angels',
 		field: '4',
 		location: 'McInnish Sports Complex',
@@ -68,7 +79,7 @@ const schedules = [
 		time: '9:00 AM'
 	},
 	{
-		id: 7,
+		id: 8,
 		description: 'Diesel E',
 		field: '4',
 		location: 'McInnish Sports Complex',
@@ -79,7 +90,7 @@ const schedules = [
 		time: '10:00 AM'
 	},
 	{
-		id: 8,
+		id: 9,
 		description: 'Angels',
 		field: '2',
 		location: 'McInnish Sports Complex',
@@ -90,7 +101,7 @@ const schedules = [
 		time: '12:00 PM'
 	},
 	{
-		id: 9,
+		id: 10,
 		description: 'Diesel E',
 		field: '2',
 		location: 'McInnish Sports Complex',
