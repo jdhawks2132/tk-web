@@ -88,7 +88,9 @@
 			{#each $schedulesStore as schedule}
 				<tr class="bg-white even:bg-gray-100 odd:bg-white">
 					<td class="border px-2 py-2 text-center"
-						><a href={`/schedule/${schedule.id}`}>{schedule.description}</a></td
+						><a href={`/schedule/${schedule.id}`} class="text-yellow-700 hover:underline"
+							>{schedule.description}</a
+						></td
 					>
 					<td class="border px-2 py-2 text-center">{schedule.field}</td>
 					<td class="border px-2 py-2 text-center">{schedule.date}</td>
