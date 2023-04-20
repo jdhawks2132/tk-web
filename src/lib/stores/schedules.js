@@ -98,7 +98,7 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '5/14/23',
-		time: '1:00 PM'
+		time: '2:00 PM'
 	}
 ];
 
