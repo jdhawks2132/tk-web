@@ -49,7 +49,9 @@
 			</p>
 			<p class="text-base xl:text-xl 2xl:text-2xl 2xl:mx-4">
 				New players interested in joining our team are always welcome and encouraged to reach out to
-				us through the form provided below.
+				us via <a href="/#contact" class="text-yellow-600 hover:underline"
+					><strong>Email or Facebook</strong></a
+				>.
 			</p>
 		</div>
 	</div>
