@@ -18,12 +18,13 @@
 			<p class="mb-6 text-xl"><strong>Location:</strong> {schedule.location}</p>
 			<p class="mb-6 text-xl"><strong>Field:</strong> {schedule.field}</p>
 			<p class="mb-6"><strong>Date:</strong> {schedule.date}</p>
-			<p class="mb-6">
+			<p class="mb-1">
 				<strong>Time:</strong>
 				{schedule.time}
-				<span class="text-red-600 font-bold">
-					{schedule.isGame ? '(please report 30 mins before)' : ''}
-				</span>
+				{schedule.isGame ? '*' : ''}
+			</p>
+			<p class="text-red-600 mb-6">
+				{schedule.isGame ? '* Game! report 30 mins before' : ''}
 			</p>
 			<p class="mb-6"><strong>Jersey Color:</strong> {schedule.jersey}</p>
 			<p class="mb-6">
