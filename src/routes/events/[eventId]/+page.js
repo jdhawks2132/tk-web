@@ -1,6 +1,5 @@
 export const load = ({ params }) => {
-
 	return {
-		scheduleId: params.scheduleId
+		eventId: params.eventId
 	};
 };

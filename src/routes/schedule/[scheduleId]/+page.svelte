@@ -3,7 +3,6 @@
 	export let data;
 	const { scheduleId } = data;
 	const schedule = $scheduleStore.find((schedule) => schedule.id == scheduleId);
-
 </script>
 
 <!-- Create a schedule details card using TailwindCSS -->
@@ -21,7 +20,10 @@
 			<p class="mb-6"><strong>Date:</strong> {schedule.date}</p>
 			<p class="mb-6">
 				<strong>Time:</strong>
-				{schedule.time} (please report to games 30 mins before)
+				{schedule.time}
+				<span class="text-red-600 font-bold">
+					{schedule.isGame ? '(please report 30 mins before)' : ''}
+				</span>
 			</p>
 			<p class="mb-6"><strong>Jersey Color:</strong> {schedule.jersey}</p>
 			<p class="mb-6">

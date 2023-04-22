@@ -1,5 +1,6 @@
 <script>
 	import schedulesStore from '$lib/stores/schedules';
+	console.log('hi, kitty devs ;-)');
 </script>
 
 <section
@@ -11,7 +12,7 @@
 		<p class="text-medium-gray font-bold my-4 mx-auto w-full lg:w-4/5">
 			The Thunder Kitties, a Dallas-based softball team, proudly participates in the Pegasus Slow
 			Pitch Softball League. If you're interested in joining our team or exploring sponsorship
-			opportunities, please don't hesitate to get in touch with us.
+			opportunities, please don't hesitate to get in touch.
 		</p>
 		<a href="#contact">
 			<button
@@ -61,14 +62,18 @@
 	<h2 class="text-2xl font-bold mb-6">Our Events</h2>
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 		<div>
-			<img
-				src="/images/scavengerHunt.jpg"
-				alt="scavenger hunt details"
-				class="event-image w-full h-auto"
-			/>
+			<a href="/events/1">
+				<img
+					src="/images/scavengerHunt.jpg"
+					alt="scavenger hunt details"
+					class="event-image w-full h-auto"
+				/>
+			</a>
 		</div>
 		<div>
-			<img src="/images/extraInnings.jpg" alt="extra innings" class="event-image w-full h-auto" />
+			<a href="/events/2">
+				<img src="/images/extraInnings.jpg" alt="extra innings" class="event-image w-full h-auto" />
+			</a>
 		</div>
 	</div>
 </section>

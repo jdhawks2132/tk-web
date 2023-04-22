@@ -10,7 +10,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/u4dYRsTXGddFwkd99',
 		imageUrl: '/images/prestonHollow.jpg',
 		date: '4/15/23',
-		time: '1:00 PM'
+		time: '1:00 PM',
+		isGame: false
 	},
 	{
 		id: 2,
@@ -21,7 +22,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '4/16/23',
-		time: '11:00 AM'
+		time: '11:00 AM',
+		isGame: true
 	},
 	{
 		id: 3,
@@ -32,7 +34,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '4/16/23',
-		time: '12:00 PM'
+		time: '12:00 PM',
+		isGame: true
 	},
 	{
 		id: 4,
@@ -43,7 +46,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '4/22/23',
-		time: '10:00 AM'
+		time: '10:00 AM',
+		isGame: false
 	},
 	{
 		id: 5,
@@ -54,7 +58,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '4/23/23',
-		time: '8:00 AM'
+		time: '8:00 AM',
+		isGame: true
 	},
 	{
 		id: 6,
@@ -65,7 +70,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '4/23/23',
-		time: '9:00 AM'
+		time: '9:00 AM',
+		isGame: true
 	},
 	{
 		id: 7,
@@ -76,7 +82,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '5/7/23',
-		time: '9:00 AM'
+		time: '9:00 AM',
+		isGame: true
 	},
 	{
 		id: 8,
@@ -87,7 +94,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '5/7/23',
-		time: '10:00 AM'
+		time: '10:00 AM',
+		isGame: true
 	},
 	{
 		id: 9,
@@ -98,7 +106,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '5/14/23',
-		time: '12:00 PM'
+		time: '12:00 PM',
+		isGame: true
 	},
 	{
 		id: 10,
@@ -109,7 +118,8 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '5/14/23',
-		time: '2:00 PM'
+		time: '2:00 PM',
+		isGame: true
 	}
 ];
 
