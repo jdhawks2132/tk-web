@@ -81,7 +81,6 @@
 <section id="schedule" class="py-12">
 	<h2 class="text-2xl font-bold mb-6">Upcoming Schedule</h2>
 
-	<!-- create a table using tailwind css with headers for Description, Location, Date, Time -->
 	<table class="table-auto w-full">
 		<thead class="bg-charcoal-gray text-white">
 			<tr>

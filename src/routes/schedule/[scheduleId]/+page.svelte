@@ -5,7 +5,6 @@
 	const schedule = $scheduleStore.find((schedule) => schedule.id == scheduleId);
 </script>
 
-<!-- Create a schedule details card using TailwindCSS -->
 <div class="bg-gray-100 p-4 rounded-lg shadow-lg mt-11">
 	<div class="flex flex-col md:flex-row">
 		<div class="md:w-1/2">
