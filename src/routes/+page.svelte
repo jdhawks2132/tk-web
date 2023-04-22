@@ -66,13 +66,17 @@
 				<img
 					src="/images/scavengerHunt.jpg"
 					alt="scavenger hunt details"
-					class="event-image w-full h-auto"
+					class="event-image w-full h-auto hover:shadow-lg transition-shadow duration-200 hover:shadow-yellow-300"
 				/>
 			</a>
 		</div>
 		<div>
 			<a href="/events/2">
-				<img src="/images/extraInnings.jpg" alt="extra innings" class="event-image w-full h-auto" />
+				<img
+					src="/images/extraInnings.jpg"
+					alt="extra innings"
+					class="event-image w-full h-auto hover:shadow-lg transition-shadow duration-200 hover:shadow-pink-300"
+				/>
 			</a>
 		</div>
 	</div>
