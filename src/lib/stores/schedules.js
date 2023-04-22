@@ -2,42 +2,6 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
-		id: 1,
-		description: 'Practice - Preston Hollow',
-		location: 'Preston Hollow Park',
-		field: '1',
-		jersey: 'N/A',
-		googleMapsLink: 'https://goo.gl/maps/u4dYRsTXGddFwkd99',
-		imageUrl: '/images/prestonHollow.jpg',
-		date: '4/15/23',
-		time: '1:00 PM',
-		isGame: false
-	},
-	{
-		id: 2,
-		description: 'Base Invaders',
-		field: '1',
-		location: 'McInnish Sports Complex',
-		jersey: 'Gray',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '4/16/23',
-		time: '11:00 AM',
-		isGame: true
-	},
-	{
-		id: 3,
-		description: 'Home Runs & Harmony',
-		field: '1',
-		location: 'McInnish Sports Complex',
-		jersey: 'Gray',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '4/16/23',
-		time: '12:00 PM',
-		isGame: true
-	},
-	{
 		id: 4,
 		description: 'Practice',
 		field: '3',
