@@ -2,18 +2,6 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
-		id: 4,
-		description: 'Practice',
-		field: '3',
-		location: 'McInnish Sports Complex',
-		jersey: 'N/A',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '4/22/23',
-		time: '10:00 AM',
-		isGame: false
-	},
-	{
 		id: 5,
 		description: 'Home Runs & Harmony',
 		field: '2',
@@ -21,7 +9,7 @@ const schedules = [
 		jersey: 'Yellow',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '4/23/23',
+		date: '5/6/23',
 		time: '8:00 AM',
 		isGame: true
 	},
@@ -33,7 +21,7 @@ const schedules = [
 		jersey: 'Yellow',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '4/23/23',
+		date: '5/6/23',
 		time: '9:00 AM',
 		isGame: true
 	},
