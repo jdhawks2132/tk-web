@@ -9,7 +9,7 @@ const schedules = [
 		jersey: 'Yellow',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '4/23/23',
+		date: '5/6/23',
 		time: '8:00 AM',
 		isGame: true
 	},
@@ -21,7 +21,7 @@ const schedules = [
 		jersey: 'Yellow',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '4/23/23',
+		date: '5/6/23',
 		time: '9:00 AM',
 		isGame: true
 	},

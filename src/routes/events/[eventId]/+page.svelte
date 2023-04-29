@@ -40,8 +40,6 @@
 			</a>
 			<a
 				href="/#events"
-				target="_blank"
-				rel="noopener noreferrer"
 				class="inline-block bg-blue-600 text-white text-lg font-semibold py-3 px-8 rounded hover:bg-blue-800 w-11/12 text-center"
 			>
 				Home Page
