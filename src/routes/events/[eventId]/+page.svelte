@@ -5,11 +5,15 @@
 	const event = $eventsStore.find((event) => event.id == eventId);
 </script>
 
-<section class="bg-white p-6 rounded-lg shadow-md w-11/12 my-11 mx-auto flex flex-col xl:flex-row">
-	<div class="aspect-w-16 aspect-h-9 overflow-hidden rounded-lg w-11/12 xl:w-1/2 mx-auto">
+<section
+	class="bg-white p-2 md:p-6 rounded-lg shadow-md w-11/12 my-11 mx-auto flex flex-col xl:flex-row"
+>
+	<div
+		class="aspect-w-16 aspect-h-9 mt-7 md:mt-0 overflow-hidden rounded-lg w-11/12 xl:w-1/2 mx-auto"
+	>
 		<img src={event.imageUrl} alt={event.title} class="w-full h-full object-cover" />
 	</div>
-	<div class="mt-6 w-full xl:w-1/2 p-11 flex flex-col mx-auto">
+	<div class="mt-6 w-full xl:w-1/2 p-3 md:p-11 flex flex-col mx-auto">
 		<h2 class="text-3xl font-bold text-gray-800 tracking-wide">{event.title}</h2>
 		<h3 class="text-xl font-bold text-gray-800 tracking-wide mt-4">
 			Date: <span class="font-normal">{event.date}</span>
@@ -29,12 +33,12 @@
 			<h3 class="text-xl font-semibold text-gray-800 tracking-wider">Location</h3>
 			<p class="text-gray-600 mt-2">{event.location}</p>
 		</div>
-		<div class="mt-8">
+		<div class="mt-8 mx-auto w-11/12 flex flex-col items-center">
 			<a
 				href={event.googleMapsLink}
 				target="_blank"
 				rel="noopener noreferrer"
-				class="inline-block bg-blue-600 text-white text-lg font-semibold py-3 px-8 rounded hover:bg-blue-800 w-11/12 text-center my-2"
+				class="inline-block bg-blue-600 text-white text-lg font-semibold mx-auto py-3 px-8 rounded hover:bg-blue-800 w-11/12 text-center my-2"
 			>
 				Google Maps
 			</a>
