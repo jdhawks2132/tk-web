@@ -83,7 +83,7 @@
 </section>
 
 <section id="schedule" class="py-12">
-	<h2 class="text-2xl font-bold mb-6">Upcoming Schedule</h2>
+	<h2 class="text-2xl font-bold mb-6">Upcoming Games and Practices:</h2>
 
 	<table class="table-auto w-full">
 		<thead class="bg-charcoal-gray text-white">
