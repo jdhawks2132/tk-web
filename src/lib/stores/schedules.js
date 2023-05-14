@@ -54,10 +54,10 @@ const schedules = [
 		description: 'Angels',
 		field: '2',
 		location: 'McInnish Sports Complex',
-		jersey: 'Yellow',
+		jersey: 'Gray',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '5/14/23',
+		date: '5/20/23',
 		time: '12:00 PM',
 		isGame: true
 	},
@@ -66,10 +66,10 @@ const schedules = [
 		description: 'Diesel E',
 		field: '2',
 		location: 'McInnish Sports Complex',
-		jersey: 'Yellow',
+		jersey: 'Gray',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '5/14/23',
+		date: '5/20/23',
 		time: '2:00 PM',
 		isGame: true
 	}
