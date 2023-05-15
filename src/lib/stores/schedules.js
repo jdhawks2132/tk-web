@@ -53,24 +53,24 @@ const schedules = [
 		id: 9,
 		description: 'Angels',
 		field: '2',
-		location: 'McInnish Sports Complex',
+		location: 'Mike Lewis Park',
 		jersey: 'Gray',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
+		googleMapsLink: 'https://goo.gl/maps/fS1eEVuz8LKbqL9D9',
+		imageUrl: '/images/mike_lewis.jpg',
 		date: '5/20/23',
-		time: '12:00 PM',
+		time: '11:00 AM',
 		isGame: true
 	},
 	{
 		id: 10,
 		description: 'Diesel E',
 		field: '2',
-		location: 'McInnish Sports Complex',
+		location: 'Mike Lewis Park',
 		jersey: 'Gray',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
+		googleMapsLink: 'https://goo.gl/maps/fS1eEVuz8LKbqL9D9',
+		imageUrl: '/images/mike_lewis.jpg',
 		date: '5/20/23',
-		time: '2:00 PM',
+		time: '1:00 PM',
 		isGame: true
 	}
 ];
