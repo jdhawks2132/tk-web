@@ -33,7 +33,7 @@
 	<div class="about-container grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
 		<div class="about-image">
 			<img
-				src="/images/tk_team.jpg"
+				src="/images/kitties_last_game_2023.jpg"
 				alt="Thunder Kitties Softball Team"
 				class="w-full rounded-lg shadow-md leading-relaxed"
 			/>
@@ -45,8 +45,8 @@
 				The Thunder Kitties proudly compete in the E Division of PSSA, a Dallas-based league focused
 				on creating an inclusive environment for the LGBTQIA community. As silver medalists in the
 				2019 NAGAAA World Series and participants in 2021, our team has a strong track record of
-				success. We are immensely grateful for the support of our fantastic host bar, The Hidden
-				Door.
+				success. Having placed first in the 2023 PSSA Spring Season, are excited to represent Dallas in the 2023 NAGAAA World Series in Minneapolis, MN. We are immensely grateful for the support of our fantastic host bar, The Hidden
+				Door. 
 			</p>
 			<p class="text-base xl:text-xl 2xl:text-2xl 2xl:mx-4">
 				New players interested in joining our team are always welcome and encouraged to reach out to
