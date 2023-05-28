@@ -46,7 +46,6 @@
 				on creating an inclusive environment for the LGBTQIA community. As silver medalists in the
 				2019 NAGAAA World Series and participants in 2021, our team has a strong track record of
 				success. Having placed first in the 2023 PSSA Spring Season, we are excited to represent Dallas in the 2023 NAGAAA World Series in Minneapolis, MN!
-				Door. 
 			</p>
 			<p class="text-base xl:text-xl 2xl:text-2xl">
 				New players interested in joining our team are always welcome and encouraged to reach out to
