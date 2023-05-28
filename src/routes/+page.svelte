@@ -39,16 +39,16 @@
 			/>
 		</div>
 		<div
-			class="about-text w-full p-4 lg:p-6 lg:h-full bg-light-gray rounded-lg shadow-md leading-relaxed"
+			class="items-center justify center about-text w-full p-4 lg:p-6 lg:h-full bg-light-gray rounded-lg shadow-md leading-relaxed"
 		>
-			<p class="text-base xl:text-xl mb-6 2xl:mt-24 2xl:text-2xl 2xl:mx-4">
+			<p class="text-base xl:text-xl mb-6  2xl:text-2xl ">
 				The Thunder Kitties proudly compete in the E Division of PSSA, a Dallas-based league focused
 				on creating an inclusive environment for the LGBTQIA community. As silver medalists in the
 				2019 NAGAAA World Series and participants in 2021, our team has a strong track record of
-				success. Having placed first in the 2023 PSSA Spring Season, are excited to represent Dallas in the 2023 NAGAAA World Series in Minneapolis, MN. We are immensely grateful for the support of our fantastic host bar, The Hidden
+				success. Having placed first in the 2023 PSSA Spring Season, we are excited to represent Dallas in the 2023 NAGAAA World Series in Minneapolis, MN!
 				Door. 
 			</p>
-			<p class="text-base xl:text-xl 2xl:text-2xl 2xl:mx-4">
+			<p class="text-base xl:text-xl 2xl:text-2xl">
 				New players interested in joining our team are always welcome and encouraged to reach out to
 				us via <a href="/#contact" class="text-yellow-600 hover:underline"
 					><strong>Email or Facebook</strong></a
