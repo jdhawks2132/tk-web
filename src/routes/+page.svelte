@@ -33,7 +33,7 @@
 	<div class="about-container grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
 		<div class="about-image">
 			<img
-				src="/images/kitties_last_game_2023.jpg"
+				src="/images/kitties_first_game_2024.jpg"
 				alt="Thunder Kitties Softball Team"
 				class="w-full rounded-lg shadow-md leading-relaxed"
 			/>
@@ -41,11 +41,12 @@
 		<div
 			class="items-center justify center about-text w-full p-4 lg:p-6 lg:h-full bg-light-gray rounded-lg shadow-md leading-relaxed"
 		>
-			<p class="text-base xl:text-xl mb-6  2xl:text-2xl ">
+			<p class="text-base xl:text-xl mb-6 2xl:text-2xl">
 				The Thunder Kitties proudly compete in the E Division of PSSA, a Dallas-based league focused
 				on creating an inclusive environment for the LGBTQIA community. As silver medalists in the
 				2019 NAGAAA World Series and participants in 2021, our team has a strong track record of
-				success. Having placed first in the 2023 PSSA Spring Season, we are excited to represent Dallas in the 2023 NAGAAA World Series in Minneapolis, MN!
+				success. Having placed first in the 2023 PSSA Spring Season, we are excited to represent
+				Dallas in the 2023 NAGAAA World Series in Minneapolis, MN!
 			</p>
 			<p class="text-base xl:text-xl 2xl:text-2xl">
 				New players interested in joining our team are always welcome and encouraged to reach out to
@@ -60,15 +61,6 @@
 <section id="events" class="py-12">
 	<h2 class="text-2xl font-bold mb-6">Our Events</h2>
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-		<div>
-			<a href="/events/1">
-				<img
-					src="/images/scavengerHunt.jpg"
-					alt="scavenger hunt details"
-					class="event-image w-full h-auto hover:shadow-lg transition-shadow duration-200 hover:shadow-yellow-300"
-				/>
-			</a>
-		</div>
 		<div>
 			<a href="/events/2">
 				<img
