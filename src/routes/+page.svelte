@@ -58,21 +58,6 @@
 	</div>
 </section>
 
-<section id="events" class="py-12">
-	<h2 class="text-2xl font-bold mb-6">Our Events</h2>
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-		<div>
-			<a href="/events/2">
-				<img
-					src="/images/extraInnings.jpg"
-					alt="extra innings"
-					class="event-image w-full h-auto hover:shadow-lg transition-shadow duration-200 hover:shadow-pink-300"
-				/>
-			</a>
-		</div>
-	</div>
-</section>
-
 <section id="schedule" class="py-12">
 	<h2 class="text-2xl font-bold mb-6">Upcoming Games and Practices:</h2>
 
@@ -100,6 +85,21 @@
 			{/each}
 		</tbody>
 	</table>
+</section>
+
+<section id="events" class="py-12">
+	<h2 class="text-2xl font-bold mb-6">Our Events</h2>
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+		<div>
+			<a href="/events/2">
+				<img
+					src="/images/extraInnings.jpg"
+					alt="extra innings"
+					class="event-image w-3/5 h-auto hover:shadow-lg transition-shadow duration-200 hover:shadow-pink-300"
+				/>
+			</a>
+		</div>
+	</div>
 </section>
 
 <section id="contact" class="py-12">
