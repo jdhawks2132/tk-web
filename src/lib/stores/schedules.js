@@ -1,42 +1,19 @@
 import { writable } from 'svelte/store';
 
 const schedules = [
-	{
-		id: 0,
-		description: 'Practice @ Churchill Park',
-		field: '1',
-		location: 'Churchill Park',
-		jersey: 'N/A',
-		googleMapsLink: 'https://maps.app.goo.gl/1UkqybxdtQxVVKpk7',
-		imageUrl: '/images/churchill_park.jpeg',
-		date: '3/16/24',
-		time: '10:00 AM',
-		isGame: false
-	},
-	{
-		id: 1,
-		description: 'Twisted Tea',
-		field: '2',
-		location: 'McInnish Sporrts Complex',
-		jersey: 'Gray',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '3/17/24',
-		time: '10:00 AM',
-		isGame: true
-	},
-	{
-		id: 2,
-		description: 'Base Invaders',
-		field: '1',
-		location: 'McInnish Sporrts Complex',
-		jersey: 'Gray',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '3/17/24',
-		time: '11:00 AM',
-		isGame: true
-	},
+	// {
+	// 	id: 0,
+	// 	description: 'Practice @ Churchill Park',
+	// 	field: '1',
+	// 	location: 'Churchill Park',
+	// 	jersey: 'N/A',
+	// 	googleMapsLink: 'https://maps.app.goo.gl/1UkqybxdtQxVVKpk7',
+	// 	imageUrl: '/images/churchill_park.jpeg',
+	// 	date: '3/16/24',
+	// 	time: '10:00 AM',
+	// 	isGame: false
+	// },
+
 	{
 		id: 111,
 		description: 'Peaches',
@@ -107,6 +84,30 @@ const schedules = [
 		imageUrl: '/images/mckinnish.jpg',
 		date: '4/14/24',
 		time: '12:00 PM',
+		isGame: true
+	},
+	{
+		id: 1,
+		description: 'Twisted Tea',
+		field: '2',
+		location: 'McInnish Sporrts Complex',
+		jersey: 'Gray',
+		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
+		imageUrl: '/images/mckinnish.jpg',
+		date: '4/20/24',
+		time: '10:00 AM',
+		isGame: true
+	},
+	{
+		id: 2,
+		description: 'Base Invaders',
+		field: '1',
+		location: 'McInnish Sporrts Complex',
+		jersey: 'Gray',
+		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
+		imageUrl: '/images/mckinnish.jpg',
+		date: '4/20/24',
+		time: '11:00 AM',
 		isGame: true
 	},
 	{
