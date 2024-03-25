@@ -15,30 +15,6 @@ const schedules = [
 	// },
 
 	{
-		id: 111,
-		description: 'Peaches',
-		field: '1',
-		location: 'McInnish Sporrts Complex',
-		jersey: 'Yellow',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '3/24/24',
-		time: '8:00 AM',
-		isGame: true
-	},
-	{
-		id: 112,
-		description: 'Vengeance',
-		field: '1',
-		location: 'McInnish Sporrts Complex',
-		jersey: 'Yellow',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '3/24/24',
-		time: '9:00 AM',
-		isGame: true
-	},
-	{
 		id: 5,
 		description: 'Oh Honey',
 		field: '3',
