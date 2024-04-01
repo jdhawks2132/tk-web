@@ -23,19 +23,19 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '4/7/24',
-		time: '8:00 AM',
+		time: '10:30 AM',
 		isGame: true
 	},
 	{
 		id: 6,
 		description: 'Titans',
-		field: '3',
+		field: '2',
 		location: 'McInnish Sporrts Complex',
 		jersey: 'Gray',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '4/7/24',
-		time: '10:00 AM',
+		time: '12:30 PM',
 		isGame: true
 	},
 	{
