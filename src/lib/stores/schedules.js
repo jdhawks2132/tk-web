@@ -4,7 +4,7 @@ const schedules = [
 	{
 		id: 0,
 		description: 'Practice',
-		field: '1',
+		field: '2',
 		location: 'Churchill Park',
 		jersey: 'N/A',
 		googleMapsLink: 'https://maps.app.goo.gl/1UkqybxdtQxVVKpk7',
