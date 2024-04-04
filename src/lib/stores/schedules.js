@@ -1,18 +1,18 @@
 import { writable } from 'svelte/store';
 
 const schedules = [
-	// {
-	// 	id: 0,
-	// 	description: 'Practice @ Churchill Park',
-	// 	field: '1',
-	// 	location: 'Churchill Park',
-	// 	jersey: 'N/A',
-	// 	googleMapsLink: 'https://maps.app.goo.gl/1UkqybxdtQxVVKpk7',
-	// 	imageUrl: '/images/churchill_park.jpeg',
-	// 	date: '3/16/24',
-	// 	time: '10:00 AM',
-	// 	isGame: false
-	// },
+	{
+		id: 0,
+		description: 'Practice',
+		field: '1',
+		location: 'Churchill Park',
+		jersey: 'N/A',
+		googleMapsLink: 'https://maps.app.goo.gl/1UkqybxdtQxVVKpk7',
+		imageUrl: '/images/churchill_park.jpeg',
+		date: '4/6/24',
+		time: '9:00 AM',
+		isGame: false
+	},
 
 	{
 		id: 5,
