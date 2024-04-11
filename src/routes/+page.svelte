@@ -90,12 +90,14 @@
 <section id="events" class="py-12">
 	<h2 class="text-2xl font-bold mb-6">Our Events</h2>
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-		<div>
+		<div
+			class="w-3/5 hover:shadow-lg transition-shadow duration-200 hover:shadow-yellow-500 rounded-lg"
+		>
 			<a href="/events/2">
 				<img
 					src="/images/extra_innings_4.21.jpg"
 					alt="extra innings"
-					class="event-image w-3/5 h-auto hover:shadow-lg transition-shadow duration-200 hover:shadow-pink-300"
+					class="event-image h-auto rounded-lg"
 				/>
 			</a>
 		</div>
