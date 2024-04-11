@@ -17,12 +17,12 @@ const events = [
 	{
 		id: 2,
 		title: 'Thunder Kitties Extra Innings',
-		info: ['More information to come.'],
+		info: ['Beer on the Patio', 'Jello Shots', '50/50 Raffle'],
 		location: 'The Hidden Door',
 		googleMapsLink: 'https://goo.gl/maps/JwDyuKyXKfhbrBBG8',
-		imageUrl: '/images/extraInnings.jpg',
-		date: 'June - TBD',
-		time: 'TBD'
+		imageUrl: '/images/extra_innings_4.21.jpg',
+		date: 'Sunday April 21st',
+		time: '3pm - 7pm'
 	}
 ];
 

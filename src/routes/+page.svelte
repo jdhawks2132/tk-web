@@ -93,7 +93,7 @@
 		<div>
 			<a href="/events/2">
 				<img
-					src="/images/extraInnings.jpg"
+					src="/images/extra_innings_4.21.jpg"
 					alt="extra innings"
 					class="event-image w-3/5 h-auto hover:shadow-lg transition-shadow duration-200 hover:shadow-pink-300"
 				/>
