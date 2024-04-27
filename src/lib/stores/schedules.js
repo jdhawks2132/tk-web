@@ -40,7 +40,7 @@ const schedules = [
 	{
 		id: 3,
 		description: 'Base Invaders',
-		field: '1',
+		field: '2',
 		location: 'McInnish Sporrts Complex',
 		jersey: 'Gray',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
@@ -52,7 +52,7 @@ const schedules = [
 	{
 		id: 4,
 		description: 'Base Invaders',
-		field: '1',
+		field: '2',
 		location: 'McInnish Sporrts Complex',
 		jersey: 'Yellow',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
@@ -64,7 +64,7 @@ const schedules = [
 	{
 		id: 5,
 		description: 'Twisted Tea',
-		field: '2',
+		field: '1',
 		location: 'McInnish Sporrts Complex',
 		jersey: 'Yellow',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
