@@ -95,7 +95,7 @@
 		>
 			<a href="/events/2">
 				<img
-					src="/images/extra_innings_4.21.jpg"
+					src="/images/uniform.jpg"
 					alt="extra innings"
 					class="event-image h-auto rounded-lg"
 				/>

@@ -1,56 +1,54 @@
 import { writable } from 'svelte/store';
 
 const schedules = [
-
 	{
 		id: 1,
-		description: 'Diesel',
+		description: 'Field Day 2',
 		field: '2',
-		location: 'Spirit Park',
-		jersey: 'Black',
-		googleMapsLink: 'https://maps.app.goo.gl/GVmAxY3ir2Z6E9JF6',
-		imageUrl: '/images/spirit_park.jpg',
-		date: '5/4/24',
-		time: '12:00 AM',
-		isGame: true
+		location: 'McInnish Sports Complex',
+		jersey: 'NA',
+		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
+		imageUrl: '/images/mckinnish.jpg',
+		date: '1/5/25',
+		time: '9:00 AM',
+		isGame: false
 	},
 	{
 		id: 2,
-		description: 'Crew',
+		description: 'Field Day 3',
 		field: '2',
-		location: 'Spirit Park',
-		jersey: 'Black',
-		googleMapsLink: 'https://maps.app.goo.gl/GVmAxY3ir2Z6E9JF6',
-		imageUrl: '/images/spirit_park.jpg',
-		date: '5/4/24',
-		time: '1:00 PM',
-		isGame: true
+		location: 'McInnish Sports Complex',
+		jersey: 'NA',
+		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
+		imageUrl: '/images/mckinnish.jpg',
+		date: '1/12/25',
+		time: '9:00 AM',
+		isGame: false
 	},
 	{
 		id: 3,
-		description: 'Osos',
-		field: '5',
+		description: 'Opening Day',
+		field: 'TBD',
 		location: 'McInnish Sports Complex',
-		jersey: 'Gray',
+		jersey: 'TBD',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '5/5/24',
-		time: '1:00 PM',
+		date: '2/16/2025',
+		time: 'TBD',
 		isGame: true
 	},
 	{
 		id: 4,
-		description: 'Kats',
-		field: '5',
+		description: 'Week 2',
+		field: 'TBD',
 		location: 'McInnish Sports Complex',
-		jersey: 'Gray',
+		jersey: 'TBD',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '5/5/24',
-		time: '2:00 PM',
+		date: '2/23/2025',
+		time: 'TBD',
 		isGame: true
-	},
-
+	}
 ];
 
 const schedulesStore = writable(schedules);

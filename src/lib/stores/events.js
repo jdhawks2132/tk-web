@@ -16,13 +16,13 @@ const events = [
 	},
 	{
 		id: 2,
-		title: 'Thunder Kitties Extra Innings',
-		info: ['Beer on the Patio', 'Jello Shots', '50/50 Raffle'],
-		location: 'The Hidden Door',
-		googleMapsLink: 'https://goo.gl/maps/JwDyuKyXKfhbrBBG8',
-		imageUrl: '/images/extra_innings_4.21.jpg',
-		date: 'Sunday April 21st',
-		time: '3pm - 7pm'
+		title: 'Uniform Night',
+		info: ['Wear your Jersey', 'Sign In', 'Be social'],
+		location: 'TBD',
+		googleMapsLink: '#',
+		imageUrl: '/images/uniform.jpg',
+		date: '2/8/2025',
+		time: 'TBD'
 	}
 ];
 
