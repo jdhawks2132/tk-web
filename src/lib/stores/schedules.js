@@ -3,8 +3,8 @@ import { writable } from 'svelte/store';
 const schedules = [
 	{
 		id: 1,
-		description: 'Field Day 2',
-		field: '2',
+		description: 'Field Day (not required)',
+		field: 'TBD',
 		location: 'McInnish Sports Complex',
 		jersey: 'NA',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
@@ -15,8 +15,20 @@ const schedules = [
 	},
 	{
 		id: 2,
-		description: 'Field Day 3',
-		field: '2',
+		description: 'Practice',
+		field: '5',
+		location: 'McInnish Sports Complex',
+		jersey: 'NA',
+		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
+		imageUrl: '/images/mckinnish.jpg',
+		date: '1/5/25',
+		time: '11:00 AM',
+		isGame: false
+	},
+	{
+		id: 3,
+		description: 'Field Day (not required)',
+		field: 'TBD',
 		location: 'McInnish Sports Complex',
 		jersey: 'NA',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
@@ -26,7 +38,7 @@ const schedules = [
 		isGame: false
 	},
 	{
-		id: 3,
+		id: 4,
 		description: 'Opening Day',
 		field: 'TBD',
 		location: 'McInnish Sports Complex',
@@ -38,7 +50,7 @@ const schedules = [
 		isGame: true
 	},
 	{
-		id: 4,
+		id: 5,
 		description: 'Week 2',
 		field: 'TBD',
 		location: 'McInnish Sports Complex',
