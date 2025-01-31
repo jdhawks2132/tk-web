@@ -18,11 +18,11 @@ const events = [
 		id: 2,
 		title: 'Uniform Night',
 		info: ['Wear your Jersey', 'Sign In', 'Be social'],
-		location: 'TBD',
-		googleMapsLink: '#',
+		location: 'The Hidden Door',
+		googleMapsLink: 'https://maps.app.goo.gl/2b3wxqKPhDSfNWYBA',
 		imageUrl: '/images/uniform.jpg',
 		date: '2/8/2025',
-		time: 'TBD'
+		time: '6:00 - 9:00 PM'
 	}
 ];
 
