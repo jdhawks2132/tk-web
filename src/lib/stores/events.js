@@ -23,6 +23,16 @@ const events = [
 		imageUrl: '/images/uniform.jpg',
 		date: '2/8/2025',
 		time: '6:00 - 9:00 PM'
+	},
+	{
+		id: 3,
+		title: 'PSSA Pegasus Games',
+		info: ['Wear your Jersey', 'Sign In', 'Play Games', 'Be social'],
+		location: 'S4',
+		googleMapsLink: 'https://goo.gl/maps/2AVGQVJKvnBvWs558',
+		imageUrl: '/images/pssa_games.jpg',
+		date: '3/2/2025',
+		time: 'TBD'
 	}
 ];
 

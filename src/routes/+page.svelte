@@ -89,14 +89,21 @@
 
 <section id="events" class="py-12">
 	<h2 class="text-2xl font-bold mb-6">Our Events</h2>
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 		<div
-			class="w-3/5 hover:shadow-lg transition-shadow duration-200 hover:shadow-yellow-500 rounded-lg"
+			class="w-11/12 hover:shadow-lg transition-shadow duration-200 hover:shadow-yellow-500 rounded-lg"
 		>
 			<a href="/events/2">
+				<img src="/images/uniform.jpg" alt="extra innings" class="event-image h-auto rounded-lg" />
+			</a>
+		</div>
+		<div
+			class="w-11/12 hover:shadow-lg transition-shadow duration-200 hover:shadow-yellow-500 rounded-lg"
+		>
+			<a href="/events/3">
 				<img
-					src="/images/uniform.jpg"
-					alt="extra innings"
+					src="/images/pssa_games.jpg"
+					alt="flaming softball pssa games"
 					class="event-image h-auto rounded-lg"
 				/>
 			</a>
