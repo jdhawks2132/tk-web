@@ -51,7 +51,7 @@ const schedules = [
 	},
 	{
 		id: 10,
-		description: 'Homies',
+		description: 'Twisted Tea',
 		field: '1',
 		location: 'McInnish Sports Complex',
 		jersey: 'Black',
@@ -63,14 +63,14 @@ const schedules = [
 	},
 	{
 		id: 12,
-		description: 'Twisted Tea',
+		description: 'Homies',
 		field: '2',
 		location: 'McInnish Sports Complex',
 		jersey: 'White',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '3/2/2025',
-		time: '9:00 AM',
+		time: '10:00 AM',
 		isGame: true
 	},
 	{
@@ -106,7 +106,7 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '3/16/2025',
-		time: '12:00 PM',
+		time: '1:00 PM',
 		isGame: true
 	},
 	{
@@ -118,7 +118,7 @@ const schedules = [
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
 		date: '3/16/2025',
-		time: '1:00 PM',
+		time: '2:00 PM',
 		isGame: true
 	}
 ];
