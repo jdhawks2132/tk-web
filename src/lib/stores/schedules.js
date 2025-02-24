@@ -2,30 +2,6 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
-		id: 2,
-		description: 'Homies',
-		field: '4',
-		location: 'McInnish Sports Complex',
-		jersey: 'Black',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '2/23/2025',
-		time: '8:00 AM',
-		isGame: true
-	},
-	{
-		id: 4,
-		description: 'Pride',
-		field: '4',
-		location: 'McInnish Sports Complex',
-		jersey: 'Black',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '2/23/2025',
-		time: '9:00 AM',
-		isGame: true
-	},
-	{
 		id: 6,
 		description: 'Vengeance',
 		field: '5',
