@@ -27,12 +27,12 @@ const events = [
 	{
 		id: 3,
 		title: 'PSSA Pegasus Games',
-		info: ['Wear your Jersey', 'Sign In', 'Play Games', 'Be social'],
+		info: ['Wear your Black Jersey', 'Sign In', 'Play Games', 'Be social'],
 		location: 'S4',
 		googleMapsLink: 'https://goo.gl/maps/2AVGQVJKvnBvWs558',
 		imageUrl: '/images/pssa_games.jpg',
 		date: '3/2/2025',
-		time: 'TBD'
+		time: '5PM - 9PM'
 	}
 ];
 
