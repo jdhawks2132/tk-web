@@ -33,7 +33,7 @@
 	<div class="about-container grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
 		<div class="about-image">
 			<img
-				src="/images/kitties_first_game_2024.jpg"
+				src="/images/kitties_first_game_2025.jpg"
 				alt="Thunder Kitties Softball Team"
 				class="w-full rounded-lg shadow-md leading-relaxed"
 			/>
