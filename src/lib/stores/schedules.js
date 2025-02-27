@@ -4,7 +4,7 @@ const schedules = [
 	{
 		id: 5,
 		description: 'Practice',
-		field: 'TBD',
+		field: '4',
 		location: 'McInnish Sports Complex',
 		jersey: 'NA',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
