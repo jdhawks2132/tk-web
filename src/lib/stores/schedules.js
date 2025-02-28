@@ -2,18 +2,6 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
-		id: 5,
-		description: 'Practice',
-		field: '4',
-		location: 'McInnish Sports Complex',
-		jersey: 'NA',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '2/27/2025',
-		time: '8:00 PM',
-		isGame: false
-	},
-	{
 		id: 6,
 		description: 'Vengeance',
 		field: '5',
