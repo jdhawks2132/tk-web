@@ -33,6 +33,16 @@ const events = [
 		imageUrl: '/images/pssa_games.jpg',
 		date: '3/2/2025',
 		time: '5PM - 9PM'
+	},
+	{
+		id: 4,
+		title: 'PSSA Variety Show',
+		info: ['Wear your Jersey', 'Sign In', 'Be social'],
+		location: 'Round Up Saloon',
+		googleMapsLink: 'https://maps.app.goo.gl/PcpHPdcBc5TKaVjv7',
+		imageUrl: '/images/variety_show.jpg',
+		date: '4/6/2025',
+		time: '5PM - 9PM'
 	}
 ];
 
