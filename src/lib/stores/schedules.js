@@ -2,28 +2,16 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
-		id: 10,
-		description: 'Twisted Tea',
-		field: '1',
+		id: 13,
+		description: 'Practice',
+		field: 'TBD',
 		location: 'McInnish Sports Complex',
-		jersey: 'Black',
+		jersey: 'N/A',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '3/9/2025',
-		time: '8:00 AM',
-		isGame: true
-	},
-	{
-		id: 12,
-		description: 'Homies',
-		field: '2',
-		location: 'McInnish Sports Complex',
-		jersey: 'White',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '3/9/2025',
-		time: '10:00 AM',
-		isGame: true
+		date: '3/20/2025',
+		time: 'TBD',
+		isGame: false
 	},
 	{
 		id: 14,
@@ -33,7 +21,7 @@ const schedules = [
 		jersey: 'Black',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '3/16/2025',
+		date: '3/23/2025',
 		time: '11:00 AM',
 		isGame: true
 	},
@@ -45,7 +33,7 @@ const schedules = [
 		jersey: 'Black',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '3/16/2025',
+		date: '3/23/2025',
 		time: '12:00 PM',
 		isGame: true
 	}
