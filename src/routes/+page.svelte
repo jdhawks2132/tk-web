@@ -100,9 +100,9 @@
 		<div
 			class="w-11/12 hover:shadow-lg transition-shadow duration-200 hover:shadow-red-300 rounded-lg"
 		>
-			<a href="/events/4">
+			<a href="/events/6">
 				<img
-					src="/images/variety_show.jpg"
+					src="/images/extraInnings.jpg"
 					alt="flaming softball pssa variety show"
 					class="event-image h-auto rounded-lg"
 				/>
