@@ -44,9 +44,9 @@
 			<p class="text-base xl:text-xl mb-6 2xl:text-2xl">
 				The Thunder Kitties proudly compete in the E Division of PSSA, a Dallas-based league focused
 				on creating an inclusive environment for the LGBTQIA community. As silver medalists in the
-				2019 NAGAAA World Series and participants in 2021, our team has a strong track record of
-				success. Having placed first in the 2023 PSSA Spring Season, we are excited to represent
-				Dallas in the 2023 NAGAAA World Series in Minneapolis, MN!
+				2019 NAGAAA World Series and participants in 2021 and 2023, our team has a strong track
+				record of success. In 2025, the Thunder Kitties were silver medalists in the Dallas Easter
+				Classic!
 			</p>
 			<p class="text-base xl:text-xl 2xl:text-2xl">
 				New players interested in joining our team are always welcome and encouraged to reach out to
