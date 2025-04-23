@@ -9,7 +9,7 @@ const schedules = [
 		jersey: 'White',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '4/26/2025',
+		date: '4/27/2025',
 		time: '10:00 AM',
 		isGame: true
 	},
@@ -21,7 +21,7 @@ const schedules = [
 		jersey: 'White',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '4/26/2025',
+		date: '4/27/2025',
 		time: '12:00 PM',
 		isGame: true
 	},
@@ -33,7 +33,7 @@ const schedules = [
 		jersey: 'Black',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '5/3/2025',
+		date: '5/4/2025',
 		time: '8:00 AM',
 		isGame: true
 	},
@@ -45,7 +45,7 @@ const schedules = [
 		jersey: 'Black',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '5/3/2025',
+		date: '5/4/2025',
 		time: '10:00 AM',
 		isGame: true
 	}
