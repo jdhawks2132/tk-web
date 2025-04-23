@@ -40,7 +40,7 @@ const schedules = [
 	{
 		id: 8,
 		description: 'Twisted Tea',
-		field: '5',
+		field: '4',
 		location: 'McInnish Sports Complex',
 		jersey: 'Black',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
