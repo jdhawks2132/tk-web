@@ -47,7 +47,7 @@ const events = [
 	{
 		id: 6,
 		title: 'Thunder Kitties Extra Innings',
-		info: ['Beer on the Patio', 'Jello Shots', '50/50 Raffle'],
+		info: ['Wear your BLACK Jersey', 'Beer on the Patio', 'Jello Shots', '50/50 Raffle'],
 		location: 'The Hidden Door',
 		googleMapsLink: 'https://goo.gl/maps/JwDyuKyXKfhbrBBG8',
 		imageUrl: '/images/extraInnings.jpg',
