@@ -6,7 +6,7 @@
 <!-- HERO -->
 <section
 	id="hero"
-	class="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh] items-center container mx-auto px-6 lg:px-12"
+	class="grid grid-cols-1 lg:grid-cols-2 min-h-[80vh] items-center container mx-auto px-6 lg:px-12 mb-12"
 >
 	<!-- Text panel -->
 	<div class="flex flex-col justify-center space-y-6">
@@ -17,13 +17,16 @@
 			The Thunder Kitties proudly represent Dallas in the Pegasus Slow Pitch Softball League.
 			Interested in joining or sponsoring? We’d love to hear from you.
 		</p>
-		<a href="#contact">
-			<button
-				class="inline-block bg-honey-yellow text-charcoal-gray font-bold py-3 px-7 rounded-lg shadow-sm transition-transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-honey-yellow/50"
-			>
-				Contact Us
-			</button>
-		</a>
+		<!-- Center on mobile, left-align on lg+ -->
+		<div class="flex justify-center lg:justify-start">
+			<a href="#contact">
+				<button
+					class="mx-auto lg:mx-0 inline-block bg-honey-yellow text-charcoal-gray font-bold py-3 px-7 rounded-lg shadow-sm transition-transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-honey-yellow/50"
+				>
+					Contact Us
+				</button>
+			</a>
+		</div>
 	</div>
 
 	<!-- Image panel -->
@@ -75,23 +78,76 @@
 	<div class="container mx-auto px-4 lg:px-8 max-w-7xl space-y-6">
 		<h2 class="text-3xl font-bold">Upcoming Games & Practices</h2>
 
-		<div class="overflow-x-auto">
-			<table class="min-w-full divide-y divide-gray-200">
+		<!-- Mobile: card list -->
+		<div class="md:hidden grid gap-4">
+			{#each $schedulesStore as schedule}
+				<div class="bg-white rounded-lg shadow p-4 flex flex-col">
+					<!-- thumbnail -->
+					<div class="relative w-full h-40 rounded overflow-hidden mb-4">
+						<img
+							src={schedule.imageUrl}
+							alt={schedule.description}
+							class="object-cover w-full h-full"
+						/>
+					</div>
+
+					<!-- title + badge -->
+					<div class="flex justify-between items-center mb-2">
+						<h3 class="text-lg font-semibold text-charcoal-gray">
+							{schedule.description}
+						</h3>
+						{#if schedule.isGame}
+							<span
+								class="px-2 py-1 text-xs font-medium uppercase bg-red-100 text-red-600 rounded-full"
+								>Game</span
+							>
+						{:else}
+							<span
+								class="px-2 py-1 text-xs font-medium uppercase bg-green-100 text-green-600 rounded-full"
+								>Practice</span
+							>
+						{/if}
+					</div>
+
+					<!-- details -->
+					<p class="text-sm text-medium-gray mb-1">
+						{schedule.date} at {schedule.time}
+					</p>
+					<p class="text-sm text-medium-gray mb-1">
+						{schedule.location} (Field {schedule.field})
+					</p>
+					<p class="text-sm text-medium-gray mb-4">
+						Jersey: <span class="font-medium">{schedule.jersey}</span>
+					</p>
+
+					<!-- map link -->
+					<a
+						href={schedule.googleMapsLink}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="mt-auto inline-flex items-center text-sm font-medium text-honey-yellow hover:underline"
+					>
+						<i class="fas fa-map-marker-alt mr-1" />
+						View Map
+					</a>
+				</div>
+			{/each}
+		</div>
+
+		<!-- Desktop: table -->
+		<div class="hidden md:block overflow-x-auto">
+			<table class="w-full table-fixed divide-y divide-gray-200">
 				<thead class="bg-charcoal-gray text-white">
 					<tr>
-						<th class="px-6 py-3 text-left text-sm font-medium uppercase">Description</th>
-						<!-- hide below md -->
-						<th class="hidden md:table-cell px-6 py-3 text-left text-sm font-medium uppercase">
-							Field
-						</th>
-						<th class="px-6 py-3 text-left text-sm font-medium uppercase">Date</th>
-						<th class="px-6 py-3 text-left text-sm font-medium uppercase">Time</th>
+						<th class="w-1/3 px-6 py-3 text-left text-sm font-medium uppercase"> Description </th>
+						<th class="w-1/3 px-6 py-3 text-left text-sm font-medium uppercase"> Date & Time </th>
+						<th class="w-1/3 px-6 py-3 text-left text-sm font-medium uppercase"> Location </th>
 					</tr>
 				</thead>
 				<tbody class="bg-white divide-y divide-gray-100">
 					{#each $schedulesStore as schedule}
 						<tr class="hover:bg-gray-50 transition">
-							<td class="px-6 py-4 whitespace-nowrap">
+							<td class="px-6 py-4">
 								<a
 									href={`/schedule/${schedule.id}`}
 									class="text-yellow-700 font-medium hover:underline"
@@ -99,12 +155,12 @@
 									{schedule.description}
 								</a>
 							</td>
-							<!-- hide below md -->
-							<td class="hidden md:table-cell px-6 py-4 whitespace-nowrap">
-								{schedule.field}
+							<td class="px-6 py-4">
+								{schedule.date} at {schedule.time}
 							</td>
-							<td class="px-6 py-4 whitespace-nowrap">{schedule.date}</td>
-							<td class="px-6 py-4 whitespace-nowrap">{schedule.time}</td>
+							<td class="px-6 py-4">
+								{schedule.location}, Field {schedule.field}
+							</td>
 						</tr>
 					{/each}
 				</tbody>
@@ -112,6 +168,7 @@
 		</div>
 	</div>
 </section>
+
 <!-- EVENTS -->
 <section id="events" class="py-16 bg-light-gray">
 	<div class="container mx-auto px-4 lg:px-8 max-w-7xl">
