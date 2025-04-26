@@ -80,7 +80,10 @@
 				<thead class="bg-charcoal-gray text-white">
 					<tr>
 						<th class="px-6 py-3 text-left text-sm font-medium uppercase">Description</th>
-						<th class="px-6 py-3 text-left text-sm font-medium uppercase">Field</th>
+						<!-- hide below md -->
+						<th class="hidden md:table-cell px-6 py-3 text-left text-sm font-medium uppercase">
+							Field
+						</th>
 						<th class="px-6 py-3 text-left text-sm font-medium uppercase">Date</th>
 						<th class="px-6 py-3 text-left text-sm font-medium uppercase">Time</th>
 					</tr>
@@ -96,7 +99,10 @@
 									{schedule.description}
 								</a>
 							</td>
-							<td class="px-6 py-4 whitespace-nowrap">{schedule.field}</td>
+							<!-- hide below md -->
+							<td class="hidden md:table-cell px-6 py-4 whitespace-nowrap">
+								{schedule.field}
+							</td>
 							<td class="px-6 py-4 whitespace-nowrap">{schedule.date}</td>
 							<td class="px-6 py-4 whitespace-nowrap">{schedule.time}</td>
 						</tr>
@@ -106,7 +112,6 @@
 		</div>
 	</div>
 </section>
-
 <!-- EVENTS -->
 <section id="events" class="py-16 bg-light-gray">
 	<div class="container mx-auto px-4 lg:px-8 max-w-7xl">
