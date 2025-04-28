@@ -1,46 +1,62 @@
 <script>
-	import scheduleStore from '$lib/stores/schedules';
-	export let data;
-	const { scheduleId } = data;
-	const schedule = $scheduleStore.find((schedule) => schedule.id == scheduleId);
+  import scheduleStore from '$lib/stores/schedules';
+  export let data;
+  const { scheduleId } = data;
+  const schedule = $scheduleStore.find((s) => s.id == scheduleId);
 </script>
 
-<div class="bg-gray-100 p-4 rounded-lg shadow-lg mt-11">
-	<div class="flex flex-col md:flex-row">
-		<div class="md:w-1/2">
-			<a href={schedule.googleMapsLink} target="_blank" rel="noopener noreferrer">
-				<img src={schedule.imageUrl} alt={schedule.description} />
-			</a>
-		</div>
-		<div class="flex flex-col items-center text-center mt-4 md:mt-0 md:w-1/2 md:pl-4">
-			<h2 class="text-3xl font-bold mb-6">{schedule.description}</h2>
-			<p class="mb-6 text-xl"><strong>Location:</strong> {schedule.location}</p>
-			<p class="mb-6 text-xl"><strong>Field:</strong> {schedule.field}</p>
-			<p class="mb-6"><strong>Date:</strong> {schedule.date}</p>
-			<p class="mb-1">
-				<strong>Time:</strong>
-				{schedule.time}
-				{schedule.isGame ? '*' : ''}
-			</p>
-			<p class="text-red-600 mb-6">
-				{schedule.isGame ? '* Game! report 30 mins before' : ''}
-			</p>
-			<p class="mb-6"><strong>Jersey Color:</strong> {schedule.jersey}</p>
-			<p class="mb-6">
-				<strong>Google Maps Link:</strong>
-				<a
-					href={schedule.googleMapsLink}
-					class="text-yellow-800"
-					target="_blank"
-					rel="noopener noreferrer">{schedule.location}</a
-				>
-			</p>
-			<a
-				href="/#schedule"
-				class="bg-honey-yellow text-charcoal-gray py-2 px-6 my-4 rounded-lg font-bold transition-colors duration-200 hover:bg-snapchat-yellow"
-			>
-				Back to Schedule
-			</a>
-		</div>
-	</div>
+<div class="container mx-auto px-4 lg:px-8 py-12">
+  <div class="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col md:flex-row">
+    <!-- Image Panel -->
+    <div class="md:w-1/2">
+      <a href={schedule.googleMapsLink} target="_blank" rel="noopener noreferrer">
+        <div class="aspect-w-4 aspect-h-3">
+          <img
+            src={schedule.imageUrl}
+            alt={schedule.description}
+            class="object-cover w-full h-full"
+          />
+        </div>
+      </a>
+    </div>
+
+    <!-- Details Panel -->
+    <div class="md:w-1/2 p-6 flex flex-col justify-center">
+      <h2 class="text-3xl font-bold text-charcoal-gray mb-4">
+        {schedule.description}
+      </h2>
+      <div class="space-y-3 text-gray-700">
+        <p><span class="font-semibold">Location:</span> {schedule.location}</p>
+        <p><span class="font-semibold">Field:</span> {schedule.field}</p>
+        <p><span class="font-semibold">Date:</span> {schedule.date}</p>
+        <p><span class="font-semibold">Time:</span> {schedule.time}</p>
+        {#if schedule.isGame}
+          <p class="text-red-600 font-semibold">
+            * Game – please arrive 30 minutes early
+          </p>
+        {/if}
+        <p><span class="font-semibold">Jersey Color:</span> {schedule.jersey}</p>
+        <p>
+          <span class="font-semibold">Map:</span>
+          <a
+            href={schedule.googleMapsLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-honey-yellow hover:underline"
+          >
+            View on Google Maps
+          </a>
+        </p>
+      </div>
+
+      <div class="mt-6">
+        <a
+          href="/#schedule"
+          class="inline-block bg-honey-yellow text-charcoal-gray font-bold py-2 px-6 rounded-lg transition-transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-honey-yellow/50"
+        >
+          Back to Schedule
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
