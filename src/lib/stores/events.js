@@ -51,7 +51,7 @@ const events = [
 		location: 'The Hidden Door',
 		googleMapsLink: 'https://goo.gl/maps/JwDyuKyXKfhbrBBG8',
 		imageUrl: '/images/extraInnings.jpg',
-		date: 'Sunday April 26th',
+		date: 'Sunday April 27th',
 		time: '4pm - 7pm'
 	}
 ];
