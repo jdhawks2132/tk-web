@@ -112,7 +112,8 @@
 
 					<!-- details -->
 					<p class="text-sm text-medium-gray mb-1">
-						{schedule.date} at {schedule.time}
+						{schedule.date}
+						{schedule.time}
 					</p>
 					<p class="text-sm text-medium-gray mb-1">
 						{schedule.location} (Field {schedule.field})
@@ -157,7 +158,8 @@
 								</a>
 							</td>
 							<td class="px-6 py-4">
-								{schedule.date} at {schedule.time}
+								{schedule.date}
+								{schedule.time}
 							</td>
 							<td class="px-6 py-4">
 								{schedule.location}, Field {schedule.field}
