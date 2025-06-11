@@ -2,27 +2,15 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
-		id: 1,
+		id: 2,
 		description: 'Practice',
 		field: '5',
 		location: 'McInnish Sports Complex',
 		jersey: 'N/A',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '6/8/2025',
-		time: '10:00 AM - 12:00 PM',
-		isGame: false
-	},
-	{
-		id: 2,
-		description: 'Practice',
-		field: 'TBD',
-		location: 'McInnish Sports Complex',
-		jersey: 'N/A',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
 		date: '6/22/2025',
-		time: 'TBD',
+		time: '8:00am - 10:00am',
 		isGame: false
 	},
 	{
