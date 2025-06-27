@@ -61,6 +61,13 @@
 				</a>
 				<a
 					on:click={closeMobileNav}
+					href="/summer"
+					class="my-1 md:mx-4 md:my-0 hover:text-snapchat-yellow"
+				>
+					Summer Ball Info
+				</a>
+				<a
+					on:click={closeMobileNav}
 					href="/#contact"
 					class="my-1 md:mx-4 md:my-0 hover:text-snapchat-yellow"
 				>
