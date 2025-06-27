@@ -11,7 +11,7 @@
 		<!-- Text panel -->
 		<div class="flex flex-col justify-center space-y-6">
 			<h1 class="text-5xl lg:text-6xl font-extrabold leading-tight text-charcoal-gray">
-				Thunder Puss Summer Ball
+				Summer Ball
 			</h1>
 			<p class="text-lg lg:text-xl text-medium-gray max-w-lg">
 				All info for the 2025 Thunder Puss Summer Ball season!
