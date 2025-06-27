@@ -145,8 +145,7 @@
 		</div>
 	</section>
 
-	<!-- Add below your schedule or hero section -->
-	<section class="mb-12">
+	<!-- <section class="mb-12">
 		<div class="bg-white rounded-xl shadow p-6 flex items-center gap-4 max-w-lg">
 			<i class="fas fa-calendar-alt text-3xl text-honey-yellow" />
 			<div>
@@ -162,7 +161,7 @@
 				</a>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- SUMMER COACHES CONTACT -->
 	<section class="mb-8">
