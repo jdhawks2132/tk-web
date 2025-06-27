@@ -3,10 +3,38 @@
 </script>
 
 <div class="container mx-auto px-6 lg:px-12">
-	<!-- PAGE TITLE -->
-	<section class="py-8">
-		<h1 class="text-5xl font-extrabold text-charcoal-gray mb-2">Summer Ball</h1>
-		<p class="text-xl text-medium-gray mb-6">Info for the 2025 ThunderPuss Summer Season!</p>
+	<!-- HERO: Summer Ball -->
+	<section
+		id="hero"
+		class="grid grid-cols-1 lg:grid-cols-2 min-h-[70vh] items-center container mx-auto px-6 lg:px-12 mb-12"
+	>
+		<!-- Text panel -->
+		<div class="flex flex-col justify-center space-y-6">
+			<h1 class="text-5xl lg:text-6xl font-extrabold leading-tight text-charcoal-gray">
+				Thunder Puss Summer Ball
+			</h1>
+			<p class="text-lg lg:text-xl text-medium-gray max-w-lg">
+				All info for the 2025 Thunder Puss Summer Ball season!
+				<br />
+				<br />
+				Games will be held at Mike Lewis Park in Grand Prairie, TX. Location and schedule details can
+				be found below. Jerseys will be distributed at our first game on Wednesday, July 9th.
+			</p>
+		</div>
+
+		<!-- Logo panel -->
+		<div class="flex items-center justify-center">
+			<div
+				class="w-full lg:w-[85%] aspect-w-1 aspect-h-1 overflow-hidden rounded-xl shadow-lg bg-white flex items-center justify-center"
+			>
+				<img
+					src="/images/thunderPuss.jpg"
+					alt="Thunder Puss Summer Ball Logo"
+					class="object-contain w-full h-full p-8"
+					loading="lazy"
+				/>
+			</div>
+		</div>
 	</section>
 
 	<!-- FIELD LOCATION -->
