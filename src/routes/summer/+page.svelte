@@ -145,6 +145,25 @@
 		</div>
 	</section>
 
+	<!-- Add below your schedule or hero section -->
+	<section class="mb-12">
+		<div class="bg-white rounded-xl shadow p-6 flex items-center gap-4 max-w-lg">
+			<i class="fas fa-calendar-alt text-3xl text-honey-yellow" />
+			<div>
+				<h3 class="text-lg font-semibold text-charcoal-gray mb-1">
+					Add Summer Ball to your Calendar!
+				</h3>
+				<a
+					href="/calendar/thunder-kitties-summer-ball-2025.ics"
+					download
+					class="inline-block mt-1 px-4 py-2 bg-honey-yellow text-charcoal-gray font-bold rounded-md shadow hover:bg-yellow-400 transition"
+				>
+					Download Schedule (.ics)
+				</a>
+			</div>
+		</div>
+	</section>
+
 	<!-- SUMMER COACHES CONTACT -->
 	<section class="mb-8">
 		<h2 class="text-3xl font-bold mb-4">Summer Ball Contacts</h2>
