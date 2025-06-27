@@ -122,14 +122,18 @@
 		<h2 class="text-3xl font-bold mb-4">Summer Ball Contacts</h2>
 		<div class="flex flex-col md:flex-row gap-8">
 			<!-- Rommel Carlos -->
-			<div class="bg-white rounded-xl shadow p-6 flex flex-row items-center gap-4 flex-1">
+			<div
+				class="bg-white rounded-xl shadow p-6 flex flex-col sm:flex-row items-center sm:items-start gap-4 w-full"
+			>
 				<div
-					class="w-14 h-14 bg-yellow-300 rounded-full flex items-center justify-center text-xl font-bold text-charcoal-gray"
+					class="w-20 h-20 bg-yellow-300 rounded-full flex items-center justify-center text-3xl font-bold text-charcoal-gray mb-2 sm:mb-0"
 				>
 					RC
 				</div>
-				<div>
-					<h3 class="text-lg font-semibold text-charcoal-gray">Rommel Carlos</h3>
+				<div class="text-center sm:text-left">
+					<h3 class="text-xl font-semibold text-charcoal-gray">
+						Rommel Carlos <span class="text-base text-medium-gray font-normal">(Head Coach)</span>
+					</h3>
 					<p class="text-base">
 						<a
 							href="mailto:carlos_rommel@yahoo.com"
@@ -139,14 +143,16 @@
 				</div>
 			</div>
 			<!-- Joshua Hawks -->
-			<div class="bg-white rounded-xl shadow p-6 flex flex-row items-center gap-4 flex-1">
+			<div
+				class="bg-white rounded-xl shadow p-6 flex flex-col sm:flex-row items-center sm:items-start gap-4 w-full"
+			>
 				<div
-					class="w-14 h-14 bg-yellow-300 rounded-full flex items-center justify-center text-xl font-bold text-charcoal-gray"
+					class="w-20 h-20 bg-yellow-300 rounded-full flex items-center justify-center text-3xl font-bold text-charcoal-gray mb-2 sm:mb-0"
 				>
 					JH
 				</div>
-				<div>
-					<h3 class="text-lg font-semibold text-charcoal-gray">Joshua Hawks</h3>
+				<div class="text-center sm:text-left">
+					<h3 class="text-xl font-semibold text-charcoal-gray">Joshua Hawks</h3>
 					<p class="text-base">
 						<a href="mailto:jdhawks@gmail.com" class="hover:underline text-honey-yellow font-medium"
 							>jdhawks@gmail.com</a
