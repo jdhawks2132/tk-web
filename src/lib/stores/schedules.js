@@ -2,27 +2,15 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
-		id: 3,
-		description: 'Practice',
+		id: 4,
+		description: 'Scrimmage vs Poundcakes',
 		field: '5',
 		location: 'McInnish Sports Complex',
 		jersey: 'N/A',
 		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
 		imageUrl: '/images/mckinnish.jpg',
-		date: '7/6/2025',
-		time: '8:00 AM - 10:00 AM',
-		isGame: false
-	},
-	{
-		id: 4,
-		description: 'Practice',
-		field: 'TBD',
-		location: 'McInnish Sports Complex',
-		jersey: 'N/A',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
 		date: '7/20/2025',
-		time: 'TBD',
+		time: '9AM - 11AM',
 		isGame: false
 	},
 	{
