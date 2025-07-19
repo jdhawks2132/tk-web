@@ -3,7 +3,7 @@ import { writable } from 'svelte/store';
 const schedules = [
 	{
 		id: 4,
-		description: 'Scrimmage vs Poundcakes',
+		description: 'Scrimmage vs. Pride',
 		field: '5',
 		location: 'McInnish Sports Complex',
 		jersey: 'N/A',
