@@ -2,27 +2,15 @@ import { writable } from 'svelte/store';
 
 const schedules = [
 	{
-		id: 4,
-		description: 'Scrimmage vs. Pride',
-		field: '5',
-		location: 'McInnish Sports Complex',
-		jersey: 'N/A',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
-		date: '7/20/2025',
-		time: '9AM - 11AM',
-		isGame: false
-	},
-	{
 		id: 5,
 		description: 'Practice',
 		field: 'TBD',
-		location: 'McInnish Sports Complex',
+		location: 'Churchill Park',
 		jersey: 'N/A',
-		googleMapsLink: 'https://goo.gl/maps/EeTL6Zy5ErWWM2nF9',
-		imageUrl: '/images/mckinnish.jpg',
+		googleMapsLink: 'https://maps.app.goo.gl/uELcw8GbhMREaAKM7',
+		imageUrl: '/images/churchill_park.jpg',
 		date: '8/3/2025',
-		time: 'TBD',
+		time: '9:00 AM',
 		isGame: false
 	},
 	{

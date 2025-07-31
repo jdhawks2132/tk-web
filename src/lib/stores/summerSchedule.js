@@ -2,54 +2,6 @@ import { writable } from 'svelte/store';
 
 const summerSchedules = [
   {
-    id: 3,
-    description: 'Sky Blue',
-    field: '2',
-    location: 'Mike Lewis Park, Grand Prairie',
-    jersey: 'TBD',
-    googleMapsLink: 'https://g.co/kgs/KhbNkt3',
-    imageUrl: '/images/mike_lewis.jpg',
-    date: '7/23/2025',
-    time: '7:00 PM',
-    isGame: true
-  },
-  {
-    id: 4,
-    description: 'Homies',
-    field: '2',
-    location: 'Mike Lewis Park, Grand Prairie',
-    jersey: 'TBD',
-    googleMapsLink: 'https://g.co/kgs/KhbNkt3',
-    imageUrl: '/images/mike_lewis.jpg',
-    date: '7/23/2025',
-    time: '9:00 PM',
-    isGame: true
-  },
-  {
-    id: 5,
-    description: 'Baddies & Daddies',
-    field: '1',
-    location: 'Mike Lewis Park, Grand Prairie',
-    jersey: 'TBD',
-    googleMapsLink: 'https://g.co/kgs/KhbNkt3',
-    imageUrl: '/images/mike_lewis.jpg',
-    date: '7/30/2025',
-    time: '7:00 PM',
-    isGame: true
-  },
-  {
-    id: 6,
-    description: 'Team Krush',
-    field: '1',
-    location: 'Mike Lewis Park, Grand Prairie',
-    jersey: 'TBD',
-    googleMapsLink: 'https://g.co/kgs/KhbNkt3',
-    imageUrl: '/images/mike_lewis.jpg',
-    date: '7/30/2025',
-    time: '8:00 PM',
-    isGame: true
-  },
-  {
     id: 7,
     description: 'Hoochies',
     field: '3',
