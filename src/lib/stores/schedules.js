@@ -8,7 +8,7 @@ const schedules = [
 		location: 'Churchill Park',
 		jersey: 'N/A',
 		googleMapsLink: 'https://maps.app.goo.gl/uELcw8GbhMREaAKM7',
-		imageUrl: '/images/churchill_park.jpg',
+		imageUrl: '/images/churchill_park.jpeg',
 		date: '8/3/2025',
 		time: '9:00 AM',
 		isGame: false
